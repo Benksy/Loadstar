@@ -3,4 +3,4 @@ Loadstar is a tool that helps in performing code and data separation of non-stan
 
 The supplementary material is included in the supplementary_material.pdf. This file includes BERT implementation details.
 
-The dataset and models will be added soon.
+The models will be added soon.
