@@ -87,11 +87,5 @@ python e2e_pipeline.py   --model path/to/model.keras   --tokenizer path/to/token
 
 ---
 
-<!-- ## 📌 Future Improvements
-- Ad   -->
-
-
----
-
 ## 📜 License
 MIT License. See `LICENSE` for details.  
