@@ -3,17 +3,6 @@ Loadstar is a tool that helps in performing code and data separation of non-stan
 
 ---
 
-## 🚀 Features
-- Load a trained **TensorFlow/Keras** model and tokenizer.  
-- Map test `.txt` files to dataset `.csv` files automatically.  
-- Tokenize and pad sequences consistently with training.  
-- Run inference and save per-instance predictions.  
-- Compute **accuracy, precision, recall, F1 (per class, macro, micro)**.  
-- Optional **Star Cutoff evaluation** (truncate evaluation up to last `0` in ground truth).  
-- Generate `metrics.json` and `metrics_star.json` for reproducibility.  
-
----
-
 ## 📂 Project Structure
 ```
 .
