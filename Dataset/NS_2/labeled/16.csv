@@ -1,0 +1,6614 @@
+inst,ground_truth
+"andeq r0, r0, r3 ",1
+"andeq r6, r0, r6, asr 7 ",1
+"andeq r0, r0, r0, asr r1 ",1
+"andeq r0, r0, ip, lsl 4 ",1
+"andeq r0, r0, sl ",1
+"andeq r0, r0, pc ",1
+"andeq r0, r0, r0, lsl 1 ",1
+"andeq r0, r0, r0 ",1
+"andeq r5, r0, r0, asr 23 ",1
+"andeq r0, r0, r8 ",1
+"andeq r1, r0, r4 ",1
+"andeq r6, r0, r0, lsr 32 ",1
+invalid ,1
+"andeq r0, r0, r0 ",1
+"eoreq sp, sb, r7, lsr 27 ",1
+"strdeq r0, r1, [r0], -pc ",1
+"andeq r0, r0, r1 ",1
+"strheq r6, [r0], -r8 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr} ",0
+"ldr r8, [0x0000074c] ",0
+"strb r0, [r8] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"ldr r2, [0x00000748] ",0
+"add sb, r8, r2 ",0
+"mov r0, r1 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00000744] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"mov r1, 1 ",0
+"str r1, [r8, -0x24] ",0
+"mov r0, r0 ",0
+"ldr r8, [0x00000740] ",0
+"ldr r1, [r8] ",0
+"cmp r1, 0x64 ",0
+"movgt r1, 1 ",0
+"movle r1, 0 ",0
+"cmp r1, 0 ",0
+bne 0x128 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"ldr r8, [0x00000740] ",0
+"ldr r1, [r8] ",0
+"ldr r2, [0x0000073c] ",0
+"add r1, r1, r2 ",0
+"lsl r1, r1, 1 ",0
+"ldr r2, [0x00000738] ",0
+"add r2, r2, r1 ",0
+"strh r0, [r8, r2] ",0
+"ldr r0, [r8] ",0
+"add r0, r0, 1 ",0
+"str r0, [r8] ",0
+b 0xcc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"ldr r8, [0x00000740] ",0
+"str r0, [r8] ",0
+"mov r0, r0 ",0
+"ldr r8, [0x00000740] ",0
+"ldr r0, [r8] ",0
+"cmp r0, 0x64 ",0
+"movgt r0, 1 ",0
+"movle r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x194 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"ldr r8, [0x00000740] ",0
+"ldr r1, [r8] ",0
+"ldr r2, [0x0000073c] ",0
+"add r1, r1, r2 ",0
+"lsl r1, r1, 1 ",0
+"ldr r2, [0x00000734] ",0
+"add r2, r2, r1 ",0
+"strh r0, [r8, r2] ",0
+"ldr r0, [r8] ",0
+"add r0, r0, 1 ",0
+"str r0, [r8] ",0
+b 0x138 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r1, lr ",0
+bl 0x1b0 ,0
+"mrchs p9, 1, r3, c2, c1, 1 ",1
+"mrchs p6, 1, r3, c8, c1, 1 ",1
+"eorslo r2, r2, r0, lsr lr ",1
+"andeq r0, r0, r1, lsr r0 ",1
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"ldr r8, [0x00000730] ",0
+"mov r1, r8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 0xe ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x1f8 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x1c4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"ldr r8, [0x0000072c] ",0
+"strb r0, [r8] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 1] ",0
+"ldrb r0, [r8, 0x6f] ",0
+"str r0, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"add sb, r8, 3 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00000728] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+pop {r0} ,0
+"strb r0, [r8, 2] ",0
+"ldrb r0, [r8, 0x6f] ",0
+"str r0, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"add sb, r8, 0x17 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00000724] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+pop {r0} ,0
+"strb r0, [r8, 2] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x70] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x71] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x72] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x73] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x74] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x75] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x76] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x77] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x78] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x79] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x7a] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x7b] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x7c] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x7d] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x7e] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x7f] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x80] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x81] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x82] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x83] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x84] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x85] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x86] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x87] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x88] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x89] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x8a] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x8b] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x8c] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x8d] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x8e] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0x8f] ",0
+"mov r0, 0 ",0
+"strh r0, [r8, 0x91] ",0
+"mov r0, 0 ",0
+"strh r0, [r8, 0x93] ",0
+"mov r0, 0 ",0
+"strh r0, [r8, 0x95] ",0
+"mov r0, 0 ",0
+"strh r0, [r8, 0x97] ",0
+"mov r1, lr ",0
+bl 0x3cc ,0
+"andeq r0, r0, r0 ",0
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"add r1, r8, 0x99 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 1 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x410 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x3dc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r1, lr ",0
+bl 0x420 ,0
+"andeq r0, r0, r0 ",0
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"ldr r8, [0x00000720] ",0
+"mov r1, r8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 1 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x468 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x434 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r1, lr ",0
+bl 0x478 ,0
+"andeq r0, r0, r0 ",0
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"ldr r8, [0x0000071c] ",0
+"mov r1, r8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 1 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x4c0 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x48c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r1, lr ",0
+bl 0x4d0 ,0
+"andeq r0, r0, r0 ",0
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"ldr r8, [0x00000718] ",0
+"mov r1, r8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 1 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x518 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x4e4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r1, lr ",0
+bl 0x528 ,0
+"andeq r0, r0, r0 ",0
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"ldr r8, [0x00000714] ",0
+"mov r1, r8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 1 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x570 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x53c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r1, lr ",0
+bl 0x580 ,0
+"andeq r0, r0, r0 ",0
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"ldr r8, [0x00000710] ",0
+"mov r1, r8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 1 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x5c8 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x594 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"ldr r8, [0x0000070c] ",0
+"strh r0, [r8] ",0
+"mov r0, 0 ",0
+"strh r0, [r8, 2] ",0
+"mov r0, 0 ",0
+"str r0, [r8, -0x144] ",0
+"mov r0, r0 ",0
+"ldr r8, [0x00000740] ",0
+"ldr r0, [r8] ",0
+"cmp r0, 7 ",0
+"movgt r0, 1 ",0
+"movle r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x690 ,0
+"mov r0, r0 ",0
+"mov r1, lr ",0
+bl 0x618 ,0
+"andeq r0, r0, r0 ",0
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"ldr r8, [0x00000740] ",0
+"ldr r1, [r8] ",0
+"mov r2, 0x15 ",0
+"mul r1, r1, r2 ",0
+"add r1, r8, r1 ",0
+"ldr r2, [0x00000708] ",0
+"add r1, r1, r2 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 1 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x674 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x640 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r8, [0x00000740] ",0
+"ldr r0, [r8] ",0
+"add r0, r0, 1 ",0
+"str r0, [r8] ",0
+b 0x5e8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"ldr r8, [0x00000704] ",0
+"strb r0, [r8] ",0
+"mov r0, 1 ",0
+"strb r0, [r8, 0x1ab] ",0
+"ldr r0, [0x0000073c] ",0
+"str r0, [r8, 0x1af] ",0
+"mov r0, 0 ",0
+"str r0, [r8, 0x1b3] ",0
+"ldrb r0, [r8, -0x21] ",0
+"cmp r0, 0 ",0
+bne 0x6c8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00000700] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"pop {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr} ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r8, lsl r0 ",1
+"muleq r0, sb, sl ",1
+"andeq r0, r0, r8, asr 2 ",1
+"muleq r0, r8, fp ",1
+"andeq r3, r0, pc, ror 22 ",1
+"andeq r3, r0, r6, asr 22 ",1
+"andeq r3, r0, sp, lsl fp ",1
+"strdeq r3, r4, [r0], -r4 ",1
+"andeq r3, r0, fp, asr 21 ",1
+"andeq r0, r0, r8, asr 4 ",1
+"andeq r0, r0, r0, ror 4 ",1
+"andeq r3, r0, sb, lsl 20 ",1
+"strheq r3, [r0], -r8 ",1
+invalid ,1
+invalid ,1
+invalid ,1
+"andeq r3, r0, r4, asr sl ",1
+"andeq r0, r0, r8, asr r2 ",1
+invalid ,1
+"andeq r3, r0, r8, ror sl ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"str r1, [sp, -4]! ",0
+"ldr r1, [0x00000774] ",0
+"lsl r2, r0, 2 ",0
+"ldr r0, [r1, r2] ",0
+pop {r1} ,0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r2, r0, r0 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r0, [pc] ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r1, r1, r8, lsl 31 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r8, [0x000007d8] ",0
+"ldrb r0, [r8] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x7c8 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"ldr r8, [0x000007d4] ",0
+"strh r0, [r8] ",0
+"mov r0, 0 ",0
+"strb r0, [r8, 0xaa] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"muleq r0, sl, fp ",1
+"andeq r3, r0, r4, asr 24 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00000818] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"ldmdb fp, {fp, sp, pc} ",0
+"strdeq r0, r1, [r0], -r4 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r8, [0x000008c0] ",0
+"ldrb r0, [r8] ",0
+"str r0, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"mov sb, sb ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x000008bc] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+pop {r0} ,0
+"strb r0, [r8, -0x6d] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 8] ",0
+"mov r0, sb ",0
+"add r1, sb, 4 ",0
+"sub r0, r0, r1 ",0
+"str r0, [sp, -4]! ",0
+"ldrsh r0, [sp] ",0
+"add sp, sp, 4 ",0
+"cmp r0, 0 ",0
+"ldrlt r1, [0x000008b8] ",0
+"mullt r0, r1, r0 ",0
+"cmp r0, 2 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"strb r0, [sb, 8] ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+invalid ,1
+"andeq r0, r0, ip, lsl 3 ",1
+"andeq r3, r0, r8, ror sl ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"mov r1, sb ",0
+"sub sp, sp, 0xc ",0
+"mov r2, sp ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001340] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrb r0, [sb, 8] ",0
+"add sp, sp, 0xc ",0
+"mov sb, r1 ",0
+"strb r0, [sb, 0x5c] ",0
+"ldrb r0, [sb, 0x5d] ",0
+"ldrb r1, [sb, 0x38] ",0
+"eor r1, r1, 1 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0xf98 ,0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0xb2] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x978 ,0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0xb0] ",0
+"strh r0, [sb, 0x3c] ",0
+"mov r0, 6 ",0
+"strh r0, [sb, 0x3e] ",0
+"mov r0, 1 ",0
+"strh r0, [sb, 0x40] ",0
+b 0x994 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0xb0] ",0
+"strh r0, [sb, 0x3c] ",0
+"mov r0, 0x11 ",0
+"strh r0, [sb, 0x3e] ",0
+"mov r0, 2 ",0
+"strh r0, [sb, 0x40] ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x5c] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0xaa4 ,0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"strb r0, [sb, 0x1d] ",0
+"ldrh r0, [sb, 0x40] ",0
+"strh r0, [sb, 0x1e] ",0
+"ldrh r0, [sb, 0x3e] ",0
+"strh r0, [sb, 0x20] ",0
+"mov r1, sb ",0
+"sub sp, sp, 0xb0 ",0
+"mov r2, sp ",0
+"add r3, sb, 0x5e ",0
+"add r4, r2, 0x59 ",0
+"mov r6, 0 ",0
+"mov r0, r0 ",0
+"mov r5, 0x51 ",0
+"cmp r6, r5 ",0
+"movhs r5, 1 ",0
+"movlo r5, 0 ",0
+"cmp r5, 0 ",0
+bne 0xa10 ,0
+"mov r0, r0 ",0
+"ldrb r5, [r3, r6] ",0
+"strb r5, [r4, r6] ",0
+"add r6, r6, 1 ",0
+b 0x9dc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000133c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldr r0, [sb, 0xac] ",0
+"add sp, sp, 0xb0 ",0
+"mov sb, r1 ",0
+"str r0, [sb, 0x24] ",0
+"ldrh r0, [sb, 0x3c] ",0
+"strh r0, [sb, 0x28] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x1c ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001338] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+b 0xb98 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"strb r0, [sb, 1] ",0
+"ldrh r0, [sb, 0x40] ",0
+"strh r0, [sb, 2] ",0
+"ldrh r0, [sb, 0x3e] ",0
+"strh r0, [sb, 4] ",0
+"mov r1, sb ",0
+"sub sp, sp, 0xb0 ",0
+"mov r2, sp ",0
+"add r3, sb, 0x5e ",0
+"add r4, r2, 0x59 ",0
+"mov r6, 0 ",0
+"mov r0, r0 ",0
+"mov r5, 0x51 ",0
+"cmp r6, r5 ",0
+"movhs r5, 1 ",0
+"movlo r5, 0 ",0
+"cmp r5, 0 ",0
+bne 0xb0c ,0
+"mov r0, r0 ",0
+"ldrb r5, [r3, r6] ",0
+"strb r5, [r4, r6] ",0
+"add r6, r6, 1 ",0
+b 0xad8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000133c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldr r0, [sb, 0xac] ",0
+"add sp, sp, 0xb0 ",0
+"mov sb, r1 ",0
+"str r0, [sb, 8] ",0
+"ldrh r0, [sb, 0x3c] ",0
+"strh r0, [sb, 0xc] ",0
+"str r0, [sp, -4]! ",0
+"mov r0, sb ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001334] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"strb r0, [sb, 0x4c] ",0
+"ldr r0, [sb, 0xb4] ",0
+"str r0, [sb, 0x50] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001330] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"ldrb r0, [sb, 0x5c] ",0
+"eor r0, r0, 1 ",0
+"ldrb r1, [sb, 0x14] ",0
+"cmp r1, 1 ",0
+"moveq r1, 1 ",0
+"movne r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0xd2c ,0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0x18] ",0
+"cmp r0, 0 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0xc8c ,0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0x16] ",0
+"strh r0, [sb, 0x3a] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 1] ",0
+"str r0, [sp, -4]! ",0
+"mov r0, sb ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001334] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strh r0, [sb, 0xb8] ",0
+"mov r0, 1 ",0
+"strb r0, [sb, 0x38] ",0
+b 0xce0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strh r0, [sb, 0x3a] ",0
+"ldrh r0, [sb, 0x18] ",0
+"strh r0, [sb, 0xb8] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 1] ",0
+"str r0, [sp, -4]! ",0
+"mov r0, sb ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001334] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x4c] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001330] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+b 0xf8c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x5c] ",0
+"ldrb r1, [sb, 0x2a] ",0
+"cmp r1, 1 ",0
+"moveq r1, 1 ",0
+"movne r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0xe74 ,0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0x2e] ",0
+"cmp r0, 0 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0xdd4 ,0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0x2c] ",0
+"strh r0, [sb, 0x3a] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x1d] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x1c ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001338] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strh r0, [sb, 0xb8] ",0
+"mov r0, 1 ",0
+"strb r0, [sb, 0x38] ",0
+b 0xe28 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strh r0, [sb, 0x3a] ",0
+"ldrh r0, [sb, 0x2e] ",0
+"strh r0, [sb, 0xb8] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x1d] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x1c ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001338] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x4c] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001330] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+b 0xf8c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x54] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0xf88 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x4c] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001330] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"ldrb r0, [sb, 0x5c] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0xf28 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x1d] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x1c ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001338] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+b 0xf6c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 1] ",0
+"str r0, [sp, -4]! ",0
+"mov r0, sb ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001334] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strh r0, [sb, 0x3a] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x38] ",0
+"mov r0, 0x96 ",0
+"strh r0, [sb, 0xb8] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+b 0x1318 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x5d] ",0
+"eor r0, r0, 1 ",0
+"ldrb r1, [sb, 0x38] ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x1190 ,0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"strb r0, [sb, 0x4c] ",0
+"ldr r0, [sb, 0xb4] ",0
+"str r0, [sb, 0x50] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001330] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"ldrh r0, [sb, 0x3a] ",0
+"cmp r0, 0 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1068 ,0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"strb r0, [sb, 0x30] ",0
+"ldrh r0, [sb, 0x3a] ",0
+"strh r0, [sb, 0x32] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x30 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000132c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x34] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x10c8 ,0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0x36] ",0
+"cmp r0, 0 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x10b0 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strh r0, [sb, 0xb8] ",0
+b 0x10bc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0x36] ",0
+"strh r0, [sb, 0xb8] ",0
+"mov r0, r0 ",0
+b 0x10ec ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x54] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x10e8 ,0
+"mov r0, r0 ",0
+"mov r0, 0x95 ",0
+"strh r0, [sb, 0xb8] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strh r0, [sb, 0x3a] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x38] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x30] ",0
+"ldrh r0, [sb, 0x3a] ",0
+"strh r0, [sb, 0x32] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x30 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000132c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x4c] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001330] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+b 0x1318 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x5d] ",0
+"eor r0, r0, 1 ",0
+"ldrb r1, [sb, 0x5c] ",0
+"eor r1, r1, 1 ",0
+"and r0, r0, r1 ",0
+"ldrb r1, [sb, 1] ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x1258 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x4c] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001330] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strb r0, [sb, 1] ",0
+"str r0, [sp, -4]! ",0
+"mov r0, sb ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001334] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strh r0, [sb, 0x3a] ",0
+"mov r0, 0x95 ",0
+"strh r0, [sb, 0xb8] ",0
+b 0x1318 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x5d] ",0
+"eor r0, r0, 1 ",0
+"ldrb r1, [sb, 0x5c] ",0
+"and r0, r0, r1 ",0
+"ldrb r1, [sb, 0x1d] ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x1314 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x4c] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001330] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x1d] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x1c ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001338] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strh r0, [sb, 0x3a] ",0
+"mov r0, 0x95 ",0
+"strh r0, [sb, 0xb8] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 0x3a] ",0
+"strh r0, [sb, 0xba] ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r4, lsr 32 ",1
+"andeq r0, r0, ip, lsr 4 ",1
+"andeq r0, r0, r4, lsr r0 ",1
+"andeq r0, r0, ip, lsr 32 ",1
+"andeq r0, r0, r8, ror 2 ",1
+"andeq r0, r0, ip, lsr 2 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"str r0, [sp, -4]! ",0
+"ldr r8, [0x00001554] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"mov r0, sb ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001550] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"mov r1, 0xa ",0
+"str r1, [sb, 0x10] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x1c ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000154c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x30 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001548] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x38] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x3a] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x3c] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x3e] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x40] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"add r0, sb, 0x44 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00001544] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x5c] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x5d] ",0
+"mov r2, lr ",0
+bl 0x14b4 ,0
+"andeq r0, r0, r0 ",0
+"mov r1, lr ",0
+"mov lr, r2 ",0
+"add r2, sb, 0x5e ",0
+"mov r4, 0 ",0
+"mov r0, r0 ",0
+"mov r3, 1 ",0
+"cmp r4, r3 ",0
+"movhs r3, 1 ",0
+"movlo r3, 0 ",0
+"cmp r3, 0 ",0
+bne 0x14f8 ,0
+"mov r0, r0 ",0
+"ldrb r3, [r1, r4] ",0
+"strb r3, [r2, r4] ",0
+"add r4, r4, 1 ",0
+b 0x14c4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00001540] ",0
+"strh r1, [sb, 0xb0] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0xb2] ",0
+"ldr r1, [0x0000153c] ",0
+"str r1, [sb, 0xb4] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0xb8] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0xba] ",0
+pop {r0} ,0
+"cmp r0, 0 ",0
+bne 0x1534 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r2, r0, r0, lsl r7 ",1
+"strdeq r0, r1, [r0], -r6 ",1
+"andeq r0, r0, r0, lsr r2 ",1
+"andeq r0, r0, r8, lsr 32 ",1
+"andeq r0, r0, r0, lsr r0 ",1
+"andeq r0, r0, r8, lsr r0 ",1
+"andeq r3, r0, r8, ror sl ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldrb r0, [sb, 0x66c] ",0
+"ldrb r1, [sb] ",0
+"eor r1, r1, 1 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x1fa4 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x604] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x00002588] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002584] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x64d] ",0
+"mov r0, 1 ",0
+"strb r0, [sb] ",0
+"ldr r0, [0x00002580] ",0
+"ldrh r0, [sb, r0] ",0
+"add r0, r0, 1 ",0
+"ldr r1, [0x00002580] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002580] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 2] ",0
+"ldr r0, [0x00002580] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 3] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 4] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 5] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 6] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 7] ",0
+"ldrb r0, [sb, 0x654] ",0
+"strb r0, [sb, 8] ",0
+"ldrb r0, [sb, 0x655] ",0
+"strb r0, [sb, 9] ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 2 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"ldrb r1, [sb, 0x655] ",0
+"cmp r1, 1 ",0
+"movne r1, 1 ",0
+"moveq r1, 0 ",0
+"and r0, r0, r1 ",0
+"cmp r0, 0 ",0
+bne 0x1748 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002578] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"ldr r0, [0x00002578] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xc] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xd] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"cmp r0, 0 ",0
+"movlo r0, 1 ",0
+"movhs r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1738 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"add r0, r0, 7 ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 3 ",0
+"add r0, r0, 9 ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+b 0x1f7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 4 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"ldrb r1, [sb, 0x655] ",0
+"cmp r1, 3 ",0
+"movne r1, 1 ",0
+"moveq r1, 0 ",0
+"and r0, r0, r1 ",0
+"cmp r0, 0 ",0
+bne 0x1810 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002578] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"ldr r0, [0x00002578] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xc] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xd] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"lsl r0, r0, 1 ",0
+"add r0, r0, 9 ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+b 0x1f7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 5 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x18d0 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"ldr r0, [sb, 0x668] ",0
+"ldrb r0, [r0] ",0
+"and r0, r0, 1 ",0
+"cmp r0, 1 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1898 ,0
+"mov r0, r0 ",0
+"mov r0, 0xff ",0
+"strb r0, [sb, 0xc] ",0
+b 0x18a4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0xc] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0xd] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+b 0x1f7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 6 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x195c ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"ldr r0, [sb, 0x668] ",0
+"ldrb r0, [r0, 1] ",0
+"strb r0, [sb, 0xc] ",0
+"ldr r0, [sb, 0x668] ",0
+"ldrb r0, [r0] ",0
+"strb r0, [sb, 0xd] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+b 0x1f7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 7 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x199c ,0
+"mov r0, r0 ",0
+"mov r0, 8 ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 9 ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+b 0x1f7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 0xf ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1b8c ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00002560] ",0
+"cmp r0, r1 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"ldr r1, [0x00002564] ",0
+"ldrh r1, [sb, r1] ",0
+"cmp r1, 0 ",0
+"movhs r1, 1 ",0
+"movlo r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x1b68 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xc] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xd] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"add r0, r0, 7 ",0
+"mov r1, 8 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000255c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xe] ",0
+"ldr r0, [sb, 0x668] ",0
+"str r0, [sb, 0x618] ",0
+"mov r0, 1 ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00002570] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldrb r1, [sb, 0xe] ",0
+"cmp r0, r1 ",0
+"movgt r0, 1 ",0
+"movle r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1b40 ,0
+"mov r0, r0 ",0
+"ldr r0, [sb, 0x618] ",0
+"ldrb r0, [r0] ",0
+"ldr r1, [0x00002570] ",0
+"ldrsh r1, [sb, r1] ",0
+"add r1, r1, 0xd ",0
+"ldr r2, [0x00002558] ",0
+"add r1, r1, r2 ",0
+"mov r2, 2 ",0
+"add r2, r2, r1 ",0
+"strb r0, [sb, r2] ",0
+"ldr r0, [sb, 0x618] ",0
+"add r0, r0, 1 ",0
+"str r0, [sb, 0x618] ",0
+"ldr r0, [0x00002570] ",0
+"ldrsh r0, [sb, r0] ",0
+"add r0, r0, 1 ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+b 0x1ac8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0xe] ",0
+"add r0, r0, 0xd ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+b 0x1b80 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0x97 ",0
+"ldr r1, [0x00002554] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x1f7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 0x10 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1d68 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"cmp r0, 0x7f ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"ldr r1, [0x00002564] ",0
+"ldrh r1, [sb, r1] ",0
+"cmp r1, 0 ",0
+"movhs r1, 1 ",0
+"movlo r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x1d44 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xc] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xd] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"lsl r0, r0, 1 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xe] ",0
+"ldr r0, [sb, 0x668] ",0
+"str r0, [sb, 0x618] ",0
+"mov r0, 1 ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00002570] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldrb r1, [sb, 0xe] ",0
+"cmp r0, r1 ",0
+"movgt r0, 1 ",0
+"movle r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1d1c ,0
+"mov r0, r0 ",0
+"ldr r0, [sb, 0x618] ",0
+"ldrb r0, [r0, 1] ",0
+"ldr r1, [0x00002570] ",0
+"ldrsh r1, [sb, r1] ",0
+"add r1, r1, 0xd ",0
+"ldr r2, [0x00002558] ",0
+"add r1, r1, r2 ",0
+"mov r2, 2 ",0
+"add r2, r2, r1 ",0
+"strb r0, [sb, r2] ",0
+"ldr r0, [sb, 0x618] ",0
+"ldrb r0, [r0] ",0
+"ldr r1, [0x00002570] ",0
+"ldrsh r1, [sb, r1] ",0
+"add r1, r1, 0xe ",0
+"ldr r2, [0x00002558] ",0
+"add r1, r1, r2 ",0
+"mov r2, 2 ",0
+"add r2, r2, r1 ",0
+"strb r0, [sb, r2] ",0
+"ldr r0, [sb, 0x618] ",0
+"add r0, r0, 2 ",0
+"str r0, [sb, 0x618] ",0
+"ldr r0, [0x00002570] ",0
+"ldrsh r0, [sb, r0] ",0
+"add r0, r0, 2 ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+b 0x1c7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0xe] ",0
+"add r0, r0, 0xd ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+b 0x1d5c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0x97 ",0
+"ldr r1, [0x00002554] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x1f7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 0x17 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1f64 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002578] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"ldr r0, [0x00002578] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xc] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xd] ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xe] ",0
+"ldr r0, [0x00002568] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0xf] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000257c] ",0
+"and r0, r1, r0 ",0
+"lsr r0, r0, 8 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0x10] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0x11] ",0
+"ldr r0, [0x00002564] ",0
+"ldrh r0, [sb, r0] ",0
+"lsl r0, r0, 1 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 0x12] ",0
+"ldr r0, [sb, 0x668] ",0
+"str r0, [sb, 0x618] ",0
+"mov r0, 1 ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00002570] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldrb r1, [sb, 0x12] ",0
+"cmp r0, r1 ",0
+"movgt r0, 1 ",0
+"movle r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x1f24 ,0
+"mov r0, r0 ",0
+"ldr r0, [sb, 0x618] ",0
+"ldrb r0, [r0, 1] ",0
+"ldr r1, [0x00002570] ",0
+"ldrsh r1, [sb, r1] ",0
+"add r1, r1, 0x11 ",0
+"ldr r2, [0x00002558] ",0
+"add r1, r1, r2 ",0
+"mov r2, 2 ",0
+"add r2, r2, r1 ",0
+"strb r0, [sb, r2] ",0
+"ldr r0, [sb, 0x618] ",0
+"ldrb r0, [r0] ",0
+"ldr r1, [0x00002570] ",0
+"ldrsh r1, [sb, r1] ",0
+"add r1, r1, 0x12 ",0
+"ldr r2, [0x00002558] ",0
+"add r1, r1, r2 ",0
+"mov r2, 2 ",0
+"add r2, r2, r1 ",0
+"strb r0, [sb, r2] ",0
+"ldr r0, [sb, 0x618] ",0
+"add r0, r0, 2 ",0
+"str r0, [sb, 0x618] ",0
+"ldr r0, [0x00002570] ",0
+"ldrsh r0, [sb, r0] ",0
+"add r0, r0, 2 ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+b 0x1e84 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x12] ",0
+"add r0, r0, 0x11 ",0
+"ldr r1, [0x00002570] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0xc ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002574] ",0
+"ldrh r0, [sb, r0] ",0
+"lsl r0, r0, 1 ",0
+"add r0, r0, 9 ",0
+"ldr r1, [0x0000256c] ",0
+"strh r0, [sb, r1] ",0
+b 0x1f7c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"ldr r1, [0x00002554] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x1f9c ,0
+"mov r0, r0 ",0
+"ldrb r0, [sb] ",0
+"strb r0, [sb, 1] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x66c] ",0
+"strb r0, [sb, 0x64e] ",0
+"ldr r0, [0x00002550] ",0
+"ldrh r0, [sb, r0] ",0
+"cmp r0, 0 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x26bc ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002570] ",0
+"ldrsh r0, [sb, r0] ",0
+"sub r0, r0, 6 ",0
+"mov r1, 0xff ",0
+"and r0, r1, r0 ",0
+"strb r0, [sb, 7] ",0
+"ldrb r0, [sb, 1] ",0
+"strb r0, [sb, 0x634] ",0
+"ldr r0, [0x00002550] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000254c] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002570] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x00002548] ",0
+"strh r0, [sb, r1] ",0
+"add r0, sb, 2 ",0
+"str r0, [sb, 0x648] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x00002544] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002540] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"ldrb r0, [sb, 0x642] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x20d8 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x61c] ",0
+"ldr r0, [0x00002550] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000253c] ",0
+"strh r0, [sb, r1] ",0
+"add r0, sb, 2 ",0
+"str r0, [sb, 0x630] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x00002538] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002534] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 1 ",0
+"strb r0, [sb, 0x64c] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x64c] ",0
+"ldrb r1, [sb] ",0
+"and r0, r0, r1 ",0
+"strb r0, [sb, 0x61c] ",0
+"ldr r0, [0x00002550] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000253c] ",0
+"strh r0, [sb, r1] ",0
+"add r0, sb, 2 ",0
+"str r0, [sb, 0x630] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x00002538] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002534] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"ldr r0, [0x00002530] ",0
+"ldrh r0, [sb, r0] ",0
+"cmp r0, 0 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"ldrb r1, [sb, 0x61c] ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x2634 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x0000252c] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000256c] ",0
+"ldrsh r1, [sb, r1] ",0
+"cmp r0, r1 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x2438 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x64c] ",0
+"ldrb r0, [sb, 8] ",0
+"strb r0, [sb, 0x64d] ",0
+"ldr r0, [0x0000252c] ",0
+"ldrh r0, [sb, r0] ",0
+"cmp r0, 9 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"ldrb r1, [sb, 9] ",0
+"mov r2, 0x80 ",0
+"and r1, r1, r2 ",0
+"cmp r1, 0 ",0
+"movne r1, 1 ",0
+"moveq r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x2204 ,0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0xa] ",0
+"ldr r1, [0x00002554] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+b 0x242c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 2 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"ldrb r1, [sb, 0x655] ",0
+"cmp r1, 1 ",0
+"movne r1, 1 ",0
+"moveq r1, 0 ",0
+"and r0, r0, r1 ",0
+"cmp r0, 0 ",0
+bne 0x22c8 ,0
+"mov r0, r0 ",0
+"mov r0, 0xa ",0
+"ldr r1, [0x00002528] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00002528] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x0000252c] ",0
+"ldrh r1, [sb, r1] ",0
+"cmp r0, r1 ",0
+"movgt r0, 1 ",0
+"movle r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x22bc ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002528] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x00002558] ",0
+"add r0, r0, r1 ",0
+"mov r1, 2 ",0
+"add r1, r1, r0 ",0
+"ldrb r0, [sb, r1] ",0
+"ldr r1, [sb, 0x664] ",0
+"strb r0, [r1] ",0
+"ldr r0, [sb, 0x664] ",0
+"add r0, r0, 1 ",0
+"str r0, [sb, 0x664] ",0
+"ldr r0, [0x00002528] ",0
+"ldrsh r0, [sb, r0] ",0
+"add r0, r0, 1 ",0
+"ldr r1, [0x00002528] ",0
+"strh r0, [sb, r1] ",0
+b 0x2244 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+b 0x23cc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x655] ",0
+"cmp r0, 0x17 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"ldrb r1, [sb, 0x655] ",0
+"cmp r1, 4 ",0
+"movne r1, 1 ",0
+"moveq r1, 0 ",0
+"ldrb r2, [sb, 0x655] ",0
+"cmp r2, 3 ",0
+"movne r2, 1 ",0
+"moveq r2, 0 ",0
+"and r1, r1, r2 ",0
+"and r0, r0, r1 ",0
+"cmp r0, 0 ",0
+bne 0x23c8 ,0
+"mov r0, r0 ",0
+"mov r0, 0xa ",0
+"ldr r1, [0x00002528] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00002528] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x0000252c] ",0
+"ldrh r1, [sb, r1] ",0
+"cmp r0, r1 ",0
+"movgt r0, 1 ",0
+"movle r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x23bc ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002528] ",0
+"ldrsh r0, [sb, r0] ",0
+"add r0, r0, 1 ",0
+"ldr r1, [0x00002558] ",0
+"add r0, r0, r1 ",0
+"mov r1, 2 ",0
+"add r1, r1, r0 ",0
+"ldrb r0, [sb, r1] ",0
+"ldr r1, [sb, 0x664] ",0
+"strb r0, [r1] ",0
+"ldr r0, [0x00002528] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x00002558] ",0
+"add r0, r0, r1 ",0
+"mov r1, 2 ",0
+"add r1, r1, r0 ",0
+"ldrb r0, [sb, r1] ",0
+"ldr r1, [sb, 0x664] ",0
+"strb r0, [r1, 1] ",0
+"ldr r0, [sb, 0x664] ",0
+"add r0, r0, 2 ",0
+"str r0, [sb, 0x664] ",0
+"ldr r0, [0x00002528] ",0
+"ldrsh r0, [sb, r0] ",0
+"add r0, r0, 2 ",0
+"ldr r1, [0x00002528] ",0
+"strh r0, [sb, r1] ",0
+b 0x231c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+b 0x23cc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 9] ",0
+"cmp r0, 7 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x2410 ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00002528] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x00002558] ",0
+"add r0, r0, r1 ",0
+"mov r1, 2 ",0
+"add r1, r1, r0 ",0
+"ldrb r0, [sb, r1] ",0
+"ldr r1, [sb, 0x664] ",0
+"strb r0, [r1] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002554] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+b 0x25cc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r0, [0x0000252c] ",0
+"ldrh r0, [sb, r0] ",0
+"cmp r0, 9 ",0
+"movlo r0, 1 ",0
+"movhs r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x259c ,0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 9] ",0
+"mov r1, 0x80 ",0
+"and r0, r0, r1 ",0
+"cmp r0, 0 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x24a4 ,0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 8] ",0
+"strb r0, [sb, 0x64d] ",0
+"ldrb r0, [sb, 0xa] ",0
+"ldr r1, [0x00002554] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+b 0x2590 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r0, [0x0000252c] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x0000256c] ",0
+"ldrsh r1, [sb, r1] ",0
+"cmp r0, r1 ",0
+"movle r0, 1 ",0
+"movgt r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x24ec ,0
+"mov r0, r0 ",0
+"mov r0, 0x98 ",0
+"ldr r1, [0x00002554] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+b 0x2590 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x5f4] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x2518 ,0
+"mov r0, r0 ",0
+"mov r0, 0x99 ",0
+"ldr r1, [0x00002554] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+b 0x258c ,0
+"mov r0, r0 ",0
+"stclgt p13, c12, [sp, 0x334] ",1
+"stclgt p13, c12, [sp, 0x334] ",1
+"andeq r0, r0, r4, lsl r6 ",1
+"andeq r0, r0, r4, lsr 12 ",1
+"andeq r0, r0, r2, lsr 12 ",1
+"andeq r0, r0, r4, asr r0 ",1
+"andeq r0, r0, ip, lsl r6 ",1
+"andeq r0, r0, lr, lsl r6 ",1
+"muleq r0, r0, r0 ",1
+"andeq r0, r0, r4, lsr r6 ",1
+"andeq r0, r0, r8, lsr r6 ",1
+"andeq r0, r0, r6, lsr r6 ",1
+"andeq r0, r0, r2, asr r6 ",1
+"andeq r0, r0, lr, ror 12 ",1
+invalid ,1
+"andeq r0, r0, r4, ror 5 ",1
+"strdeq r0, r1, [r0], -r8 ",1
+"andeq r0, r0, ip, asr r6 ",1
+"andeq r0, r0, sl, asr r6 ",1
+"andeq r0, r0, r0, ror 11 ",1
+"ldrdeq r0, r1, [r0], -lr ",1
+"andeq r0, r0, r8, asr r6 ",1
+"andeq r0, r0, r6, asr r6 ",1
+invalid ,1
+"andeq r0, r0, r0, asr r6 ",1
+"andeq r0, r0, ip, lsr 4 ",1
+"strdeq r0, r1, [r0], -ip ",1
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+b 0x25cc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x5f4] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x25c8 ,0
+"mov r0, r0 ",0
+"mov r0, 0x99 ",0
+"ldr r1, [0x000028b8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x61c] ",0
+"ldr r0, [0x000028b4] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x000028b0] ",0
+"strh r0, [sb, r1] ",0
+"add r0, sb, 2 ",0
+"str r0, [sb, 0x630] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x000028ac] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x000028a8] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+b 0x2664 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x5f4] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x2660 ,0
+"mov r0, r0 ",0
+"mov r0, 0x99 ",0
+"ldr r1, [0x000028b8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x66d] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x268c ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x64c] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb] ",0
+"cmp r0, 0 ",0
+bne 0x26ac ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x64c] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+b 0x2814 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x61c] ",0
+"ldr r0, [0x000028b4] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x000028b0] ",0
+"strh r0, [sb, r1] ",0
+"add r0, sb, 2 ",0
+"str r0, [sb, 0x630] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x000028ac] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x000028a8] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x634] ",0
+"ldr r0, [0x000028b4] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x000028a4] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x000028a0] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x0000289c] ",0
+"strh r0, [sb, r1] ",0
+"add r0, sb, 2 ",0
+"str r0, [sb, 0x648] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x00002898] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002894] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"ldrb r0, [sb] ",0
+"strb r0, [sb, 0x604] ",0
+"ldr r0, [sb, 0x660] ",0
+"str r0, [sb, 0x608] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x00002890] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000288c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"ldrb r0, [sb, 0x60c] ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x280c ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"strb r0, [sb] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x64c] ",0
+"mov r0, 0x96 ",0
+"ldr r1, [0x000028b8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x64c] ",0
+"ldrb r1, [sb] ",0
+"and r0, r0, r1 ",0
+"strb r0, [sb, 0x5ec] ",0
+"ldr r0, [sb, 0x660] ",0
+"str r0, [sb, 0x5f0] ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x00002888] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000288c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"ldrb r0, [sb] ",0
+"eor r0, r0, 1 ",0
+"strb r0, [sb, 0x670] ",0
+"ldrb r0, [sb, 0x64d] ",0
+"strb r0, [sb, 0x671] ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r4, ror 11 ",1
+"andeq r0, r0, ip, lsr 4 ",1
+"strdeq r0, r1, [r0], -ip ",1
+"muleq r0, r0, r0 ",1
+"andeq r0, r0, r4, lsr r6 ",1
+"andeq r0, r0, r8, lsr r6 ",1
+"ldrdeq r0, r1, [r0], -lr ",1
+"andeq r0, r0, r6, lsr r6 ",1
+"andeq r0, r0, r4, asr r0 ",1
+"andeq r0, r0, ip, lsl r6 ",1
+"andeq r0, r0, lr, lsl r6 ",1
+"andeq r0, r0, r2, asr r6 ",1
+"andeq r0, r0, lr, ror 12 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r1, [0x00002bcc] ",0
+"ldr r1, [r1] ",0
+"str r1, [sp, -4]! ",0
+"str r0, [sp, -4]! ",0
+"mov r1, 0 ",0
+"strb r1, [sb] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 1] ",0
+"mov r1, 1 ",0
+"ldr r8, [0x00002bcc] ",0
+"str r1, [r8] ",0
+"mov r0, r0 ",0
+"ldr r8, [0x00002bcc] ",0
+"ldr r1, [r8] ",0
+"ldr r2, [0x00002bc8] ",0
+"cmp r1, r2 ",0
+"movgt r1, 1 ",0
+"movle r1, 0 ",0
+"cmp r1, 0 ",0
+bne 0x2950 ,0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"ldr r8, [0x00002bcc] ",0
+"ldr r1, [r8] ",0
+"ldr r2, [0x00002bc4] ",0
+"add r1, r1, r2 ",0
+"mov r2, 2 ",0
+"add r2, r2, r1 ",0
+"strb r0, [sb, r2] ",0
+"ldr r0, [r8] ",0
+"add r0, r0, 1 ",0
+"str r0, [r8] ",0
+b 0x28f4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002bc0] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002bbc] ",0
+"strh r0, [sb, r1] ",0
+"ldr r8, [0x00002bb8] ",0
+"ldrb r0, [r8] ",0
+"str r0, [sp, -4]! ",0
+"ldr r2, [0x00002bb4] ",0
+"add r0, sb, r2 ",0
+"mov r1, r0 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002bb0] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"strb r0, [r8, -0x6d] ",0
+"ldrb r0, [r8] ",0
+"str r0, [sp, -4]! ",0
+"ldr r2, [0x00002bac] ",0
+"add r0, sb, r2 ",0
+"mov r1, r0 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002bb0] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"strb r0, [r8, -0x6d] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002ba8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"str r0, [sb, 0x618] ",0
+"ldrb r0, [r8] ",0
+"str r0, [sp, -4]! ",0
+"ldr r2, [0x00002ba4] ",0
+"add r0, sb, r2 ",0
+"mov r1, r0 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002ba0] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"strb r0, [r8, -0x6d] ",0
+"ldrb r0, [r8] ",0
+"str r0, [sp, -4]! ",0
+"ldr r2, [0x00002b9c] ",0
+"add r0, sb, r2 ",0
+"mov r1, r0 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002b98] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"strb r0, [r8, -0x6d] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x64c] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x64d] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x64e] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002b94] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002b90] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x654] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x655] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002b8c] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002b88] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002b84] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002b80] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"str r0, [sb, 0x660] ",0
+"mov r0, 0 ",0
+"str r0, [sb, 0x664] ",0
+"mov r0, 0 ",0
+"str r0, [sb, 0x668] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x66c] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x66d] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00002b7c] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x670] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x671] ",0
+pop {r0} ,0
+"cmp r0, 0 ",0
+bne 0x2b68 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+pop {r1} ,0
+"ldr r0, [0x00002bcc] ",0
+"str r1, [r0] ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, lr, ror 12 ",1
+"andeq r0, r0, ip, asr r6 ",1
+"andeq r0, r0, sl, asr r6 ",1
+"andeq r0, r0, r8, asr r6 ",1
+"andeq r0, r0, r6, asr r6 ",1
+"andeq r0, r0, r2, asr r6 ",1
+"andeq r0, r0, r0, asr r6 ",1
+"muleq r0, r4, r0 ",1
+"andeq r0, r0, r4, lsr r6 ",1
+"andeq r0, r0, r8, asr r0 ",1
+"andeq r0, r0, ip, lsl r6 ",1
+"andeq r0, r0, r4, lsl r6 ",1
+"strdeq r0, r1, [r0], -ip ",1
+"andeq r0, r0, r0, lsr r2 ",1
+"andeq r0, r0, r4, ror 11 ",1
+"andeq r3, r0, r8, ror sl ",1
+"andeq r0, r0, r0, ror 11 ",1
+"ldrdeq r0, r1, [r0], -lr ",1
+invalid ,1
+"ldrdeq r0, r1, [r0], -ip ",1
+"andeq r3, r0, r4, asr sl ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r0, [0x00002de4] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00002de0] ",0
+"strh r0, [sb, r1] ",0
+"ldrb r0, [sb, 0x78a] ",0
+"strb r0, [sb, 0x710] ",0
+"ldrb r0, [sb, 0x78b] ",0
+"strb r0, [sb, 0x711] ",0
+"ldr r0, [0x00002ddc] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00002dd8] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002dd4] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00002dd0] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002dcc] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00002dc8] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002dc4] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00002dc0] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [sb, 0x7a0] ",0
+"str r0, [sb, 0x71c] ",0
+"ldr r0, [sb, 0x790] ",0
+"str r0, [sb, 0x720] ",0
+"ldr r0, [sb, 0x798] ",0
+"str r0, [sb, 0x724] ",0
+"ldrb r0, [sb, 0x79c] ",0
+"strb r0, [sb, 0x728] ",0
+"ldrb r0, [sb, 0x79d] ",0
+"strb r0, [sb, 0x729] ",0
+"str sb, [sp, -4]! ",0
+"add sb, sb, 0xbc ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002dbc] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+"ldrb r0, [sb, 0x72c] ",0
+"strb r0, [sb, 0x7a6] ",0
+"ldrb r0, [sb, 0x72d] ",0
+"strb r0, [sb, 0x7a7] ",0
+"ldr r0, [0x00002db8] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00002db4] ",0
+"strh r0, [sb, r1] ",0
+"ldrb r0, [sb, 0x7a6] ",0
+"eor r0, r0, 1 ",0
+"strb r0, [sb, 0x5d] ",0
+"ldr r1, [0x00002db0] ",0
+"add r0, sb, r1 ",0
+"add r1, sb, 0x5e ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 0x50 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x2d0c ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x2cd8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r2, 0 ",0
+"strb r2, [r1, 0x50] ",0
+"ldr r0, [0x00002dac] ",0
+"ldrh r0, [sb, r0] ",0
+"strh r0, [sb, 0xb0] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0xb2] ",0
+"str sb, [sp, -4]! ",0
+"mov sb, sb ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002da8] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+"ldrh r0, [sb, 0xba] ",0
+"ldr r1, [0x00002de4] ",0
+"strh r0, [sb, r1] ",0
+"ldrh r0, [sb, 0xb8] ",0
+"ldr r1, [0x00002da4] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00002da4] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00002db4] ",0
+"ldrh r1, [sb, r1] ",0
+"orr r0, r0, r1 ",0
+"ldr r1, [0x00002da0] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r4, lsr 15 ",1
+"andeq r0, r0, r2, lsr r7 ",1
+"andeq r0, r0, r8, lsr r1 ",1
+"andeq r0, r0, r8, lsl 15 ",1
+"andeq r0, r0, r6, lsr r7 ",1
+"andeq r0, r0, r4, lsr r7 ",1
+"andeq r0, r0, sl, lsr 14 ",1
+"andeq r0, r0, r0, asr 2 ",1
+"andeq r0, r0, r8, lsl r7 ",1
+"muleq r0, r6, r7 ",1
+"andeq r0, r0, r6, lsl r7 ",1
+"muleq r0, r4, r7 ",1
+"andeq r0, r0, r4, lsl r7 ",1
+"andeq r0, r0, lr, lsl 15 ",1
+"andeq r0, r0, r2, lsl r7 ",1
+"andeq r0, r0, ip, lsl 15 ",1
+"andeq r0, r0, lr, lsl 14 ",1
+"andeq r0, r0, r0, lsr r7 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"str r0, [sp, -4]! ",0
+"ldr r8, [0x00003004] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"mov sb, sb ",0
+"mov r0, r1 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003000] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"add sb, sb, 0xbc ",0
+"mov r0, r1 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00002ffc] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00002ff8] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00002ff4] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00002ff0] ",0
+"strh r1, [sb, r2] ",0
+"mov r2, lr ",0
+bl 0x2edc ,0
+"andeq r0, r0, r0 ",0
+"mov r1, lr ",0
+"mov lr, r2 ",0
+"ldr r3, [0x00002fec] ",0
+"add r2, sb, r3 ",0
+"mov r4, 0 ",0
+"mov r0, r0 ",0
+"mov r3, 1 ",0
+"cmp r4, r3 ",0
+"movhs r3, 1 ",0
+"movlo r3, 0 ",0
+"cmp r3, 0 ",0
+bne 0x2f24 ,0
+"mov r0, r0 ",0
+"ldrb r3, [r1, r4] ",0
+"strb r3, [r2, r4] ",0
+"add r4, r4, 1 ",0
+b 0x2ef0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00002fe8] ",0
+"ldr r2, [0x00002fe4] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x78a] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x78b] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00002fe0] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00002fdc] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"str r1, [sb, 0x790] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00002fd8] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00002fd4] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"str r1, [sb, 0x798] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x79c] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x79d] ",0
+"mov r1, 0xc8 ",0
+"str r1, [sb, 0x7a0] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00002fd0] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x7a6] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x7a7] ",0
+pop {r0} ,0
+"cmp r0, 0 ",0
+bne 0x2fc8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r4, lsr 15 ",1
+"muleq r0, r6, r7 ",1
+"muleq r0, r4, r7 ",1
+"andeq r0, r0, lr, lsl 15 ",1
+"andeq r0, r0, ip, lsl 15 ",1
+"andeq r0, r0, r8, lsl 15 ",1
+"strdeq r0, r1, [r0], -r6 ",1
+"andeq r0, r0, r6, lsr r7 ",1
+"andeq r0, r0, r4, lsr r7 ",1
+"andeq r0, r0, r2, lsr r7 ",1
+"andeq r0, r0, r0, lsr r7 ",1
+"andeq r0, r0, r4, asr 2 ",1
+"andeq r0, r0, ip, lsr r1 ",1
+"andeq r3, r0, r8, ror sl ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"mov r0, 0 ",0
+"str r0, [sb] ",0
+"mov r0, 0 ",0
+"strh r0, [sb, 4] ",0
+"mov r0, 0 ",0
+"strh r0, [sb, 6] ",0
+"mov r1, lr ",0
+bl 0x3038 ,0
+"andeq r0, r0, r0 ",0
+"mov r0, lr ",0
+"mov lr, r1 ",0
+"add r1, sb, 8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 1 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x307c ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x3048 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"str r0, [sb, 0xac] ",0
+"add r1, sb, 0x59 ",0
+"str r1, [sp, -4]! ",0
+"mov r0, r1 ",0
+"mov r1, 3 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003730] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"str r0, [sb] ",0
+"ldr r0, [sb] ",0
+"mov r1, 0xff ",0
+"cmp r0, r1 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"ldr r1, [sb] ",0
+"cmp r1, 0 ",0
+"movhs r1, 1 ",0
+"movlo r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x3700 ,0
+"mov r0, r0 ",0
+"mov r3, lr ",0
+bl 0x3110 ,0
+"andeq r0, r0, lr, lsr 32 ",1
+"mov r2, lr ",0
+"mov lr, r3 ",0
+"mov r1, r2 ",0
+"add r2, sb, 0x59 ",0
+"mov r0, r2 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000372c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"strh r0, [sb, 6] ",0
+"ldrsh r0, [sb, 6] ",0
+"cmp r0, 0 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x36e8 ,0
+"mov r0, r0 ",0
+"add r3, sb, 0x59 ",0
+"mov r0, r3 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003728] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"mov r2, r0 ",0
+"ldrsh r3, [sb, 6] ",0
+"sub r2, r2, r3 ",0
+"mov r1, r2 ",0
+"add r2, sb, 0x59 ",0
+"mov r0, r2 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003724] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"add r1, sb, 8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 0x50 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x3230 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x31fc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r2, 0 ",0
+"strb r2, [r1, 0x50] ",0
+"add r1, sb, 8 ",0
+"str r1, [sp, -4]! ",0
+"mov r0, r1 ",0
+"mov r1, 3 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003730] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"strh r0, [sb, 4] ",0
+"ldrh r0, [sb, 4] ",0
+"mov r1, 0xff ",0
+"cmp r0, r1 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"ldrh r1, [sb, 4] ",0
+"cmp r1, 0 ",0
+"movhs r1, 1 ",0
+"movlo r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x36d0 ,0
+"mov r0, r0 ",0
+"ldr r0, [sb] ",0
+"ldr r1, [0x00003720] ",0
+"mul r0, r0, r1 ",0
+"ldrh r1, [sb, 4] ",0
+"add r0, r0, r1 ",0
+"str r0, [sb] ",0
+"mov r3, lr ",0
+bl 0x32dc ,0
+"andeq r0, r0, lr, lsr 32 ",1
+"mov r2, lr ",0
+"mov lr, r3 ",0
+"mov r1, r2 ",0
+"add r2, sb, 8 ",0
+"mov r0, r2 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000372c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"strh r0, [sb, 6] ",0
+"ldrsh r0, [sb, 6] ",0
+"cmp r0, 0 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x36b8 ,0
+"mov r0, r0 ",0
+"add r3, sb, 8 ",0
+"mov r0, r3 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003728] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"mov r2, r0 ",0
+"ldrsh r3, [sb, 6] ",0
+"sub r2, r2, r3 ",0
+"mov r1, r2 ",0
+"add r2, sb, 0x59 ",0
+"mov r0, r2 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003724] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"add r1, sb, 8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 0x50 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x33fc ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x33c8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r2, 0 ",0
+"strb r2, [r1, 0x50] ",0
+"add r1, sb, 8 ",0
+"str r1, [sp, -4]! ",0
+"mov r0, r1 ",0
+"mov r1, 3 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003730] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"strh r0, [sb, 4] ",0
+"ldrh r0, [sb, 4] ",0
+"mov r1, 0xff ",0
+"cmp r0, r1 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"ldrh r1, [sb, 4] ",0
+"cmp r1, 0 ",0
+"movhs r1, 1 ",0
+"movlo r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x36a0 ,0
+"mov r0, r0 ",0
+"ldr r0, [sb] ",0
+"ldr r1, [0x00003720] ",0
+"mul r0, r0, r1 ",0
+"ldrh r1, [sb, 4] ",0
+"add r0, r0, r1 ",0
+"str r0, [sb] ",0
+"mov r3, lr ",0
+bl 0x34a8 ,0
+"andeq r0, r0, lr, lsr 32 ",1
+"mov r2, lr ",0
+"mov lr, r3 ",0
+"mov r1, r2 ",0
+"add r2, sb, 8 ",0
+"mov r0, r2 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000372c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"strh r0, [sb, 6] ",0
+"ldrsh r0, [sb, 6] ",0
+"cmp r0, 0 ",0
+"moveq r0, 1 ",0
+"movne r0, 0 ",0
+"cmp r0, 0 ",0
+bne 0x3688 ,0
+"mov r0, r0 ",0
+"add r3, sb, 8 ",0
+"mov r0, r3 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003728] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"mov r2, r0 ",0
+"ldrsh r3, [sb, 6] ",0
+"sub r2, r2, r3 ",0
+"mov r1, r2 ",0
+"add r2, sb, 0x59 ",0
+"mov r0, r2 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003724] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+"add sp, sp, 0 ",0
+"add r1, sb, 8 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 0x50 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x35c8 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x3594 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r2, 0 ",0
+"strb r2, [r1, 0x50] ",0
+"add r1, sb, 8 ",0
+"str r1, [sp, -4]! ",0
+"mov r0, r1 ",0
+"mov r1, 3 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003730] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"strh r0, [sb, 4] ",0
+"ldrh r0, [sb, 4] ",0
+"mov r1, 0xff ",0
+"cmp r0, r1 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"ldrh r1, [sb, 4] ",0
+"cmp r1, 0 ",0
+"movhs r1, 1 ",0
+"movlo r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"cmp r0, 0 ",0
+bne 0x3670 ,0
+"mov r0, r0 ",0
+"ldr r0, [sb] ",0
+"ldr r1, [0x00003720] ",0
+"mul r0, r0, r1 ",0
+"ldrh r1, [sb, 4] ",0
+"add r0, r0, r1 ",0
+"str r0, [sb] ",0
+b 0x367c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"str r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x3694 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"str r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x36ac ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"str r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x36c4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"str r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x36dc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"str r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x36f4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"str r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x370c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"str r0, [sb] ",0
+"mov r0, r0 ",0
+"ldr r0, [sb] ",0
+"str r0, [sb, 0xac] ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r0, lsl 2 ",1
+"strdeq r0, r1, [r0], -r4 ",1
+"ldrdeq r0, r1, [r0], -r8 ",1
+"andeq r0, r0, ip, asr 3 ",1
+"ldrdeq r0, r1, [r0], -ip ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"str r0, [sp, -4]! ",0
+"mov r1, 0 ",0
+"strb r1, [sb] ",0
+"mov r1, 0 ",0
+"str r1, [sb, 4] ",0
+pop {r0} ,0
+"cmp r0, 0 ",0
+bne 0x3764 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r0, [0x00003f28] ",0
+"ldr r1, [r0] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [r0] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"mov r3, 1 ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x22] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"mov r3, 2 ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x23] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 2] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldrh r1, [sb, 2] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 6] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 8] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0xa] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0xc] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0xe] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x10] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x12] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x14] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x16] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x18] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x1a] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x1c] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x1e] ",0
+"add r0, r0, r1 ",0
+"ldrh r1, [sb, 0x20] ",0
+"add r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 4] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"mov r3, 4 ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x24] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 6] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"mov r3, 8 ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x25] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 8] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"mov r3, 0x10 ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x26] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0xa] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 4] ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x32] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"mov r3, 0x20 ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x27] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0xc] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"mov r3, 0x40 ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x28] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0xe] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"mov r3, 0x80 ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x29] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x10] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"ldr r3, [0x00003f20] ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x2a] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x12] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"ldr r3, [0x00003f1c] ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x2b] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x14] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"ldr r3, [0x00003f18] ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x2c] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x16] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"ldr r3, [0x00003f14] ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x2d] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x18] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"ldr r3, [0x00003f10] ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x2e] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x1a] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"ldr r3, [0x00003f0c] ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x2f] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x1c] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"ldr r3, [0x00003f08] ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x30] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x1e] ",0
+"mov r0, r0 ",0
+"mov r1, sb ",0
+"sub sp, sp, 8 ",0
+"mov r2, sp ",0
+"ldr r3, [0x00003f04] ",0
+"strh r3, [r2, 2] ",0
+"ldrb r3, [sb, 0x31] ",0
+"strb r3, [r2] ",0
+"mov sb, r2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00003f24] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"ldrh r0, [sb, 4] ",0
+"add sp, sp, 8 ",0
+"mov sb, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 0x20] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r2, [0x00003f28] ",0
+pop {r1} ,0
+"str r1, [r2] ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r8, r0, r0 ",1
+"andeq r4, r0, r0 ",1
+"andeq r2, r0, r0 ",1
+"andeq r1, r0, r0 ",1
+"andeq r0, r0, r0, lsl 16 ",1
+"andeq r0, r0, r0, lsl 8 ",1
+"andeq r0, r0, r0, lsl 4 ",1
+"andeq r0, r0, r0, lsl 2 ",1
+"andeq r0, r0, r0, asr r2 ",1
+"andeq r2, r0, ip, ror r1 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"str r0, [sp, -4]! ",0
+"mov r1, 0 ",0
+"strh r1, [sb] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 2] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 4] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 6] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 8] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0xa] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0xc] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0xe] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x10] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x12] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x14] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x16] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x18] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x1a] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x1c] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x1e] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x20] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x22] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x23] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x24] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x25] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x26] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x27] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x28] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x29] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x2a] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x2b] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x2c] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x2d] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x2e] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x2f] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x30] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x31] ",0
+"mov r1, 0 ",0
+"strh r1, [sb, 0x32] ",0
+pop {r0} ,0
+"cmp r0, 0 ",0
+bne 0x405c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr} ",0
+"mov r0, r0 ",0
+"ldr r8, [0x00004490] ",0
+"ldrb r0, [r8, 0x82a] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa0d] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0x82b] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa0e] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x0000448c] ",0
+"add r0, r8, r1 ",0
+"ldr r2, [0x00004488] ",0
+"add r1, r8, r2 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 0x50 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x40e4 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x40b0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r2, 0 ",0
+"strb r2, [r1, 0x50] ",0
+"mov r0, 1 ",0
+"ldr r8, [0x00004490] ",0
+"ldr r1, [0x00004484] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, 8 ",0
+"ldr r1, [0x00004480] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x0000447c] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, 0 ",0
+"ldr r1, [0x00004478] ",0
+"strh r0, [r8, r1] ",0
+"ldr r1, [0x00004474] ",0
+"add r0, r8, r1 ",0
+"str r0, [r8, 0x820] ",0
+"ldr r1, [0x00004470] ",0
+"add r0, r8, r1 ",0
+"str r0, [r8, 0x824] ",0
+"ldr r0, [0x0000446c] ",0
+"ldr r1, [0x00004468] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, r0 ",0
+"str sb, [sp, -4]! ",0
+"mov sb, r8 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00004464] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00004460] ",0
+"ldrh r0, [r8, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004474] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa7d] ",0
+"strb r0, [r8, 0xa46] ",0
+"ldrb r0, [r8, 0xa7e] ",0
+"strb r0, [r8, 0xa47] ",0
+"ldrb r0, [r8, 0xa7f] ",0
+"strb r0, [r8, 0xa48] ",0
+"ldrb r0, [r8, 0xa80] ",0
+"strb r0, [r8, 0xa49] ",0
+"ldrb r0, [r8, 0xa81] ",0
+"strb r0, [r8, 0xa4a] ",0
+"ldrb r0, [r8, 0xa82] ",0
+"strb r0, [r8, 0xa4b] ",0
+"ldrb r0, [r8, 0xa83] ",0
+"strb r0, [r8, 0xa4c] ",0
+"ldrb r0, [r8, 0xa84] ",0
+"strb r0, [r8, 0xa4d] ",0
+"ldrb r0, [r8, 0xa85] ",0
+"strb r0, [r8, 0xa4e] ",0
+"ldrb r0, [r8, 0xa86] ",0
+"strb r0, [r8, 0xa4f] ",0
+"ldrb r0, [r8, 0xa87] ",0
+"strb r0, [r8, 0xa50] ",0
+"ldrb r0, [r8, 0xa88] ",0
+"strb r0, [r8, 0xa51] ",0
+"ldrb r0, [r8, 0xa89] ",0
+"strb r0, [r8, 0xa52] ",0
+"ldrb r0, [r8, 0xa8a] ",0
+"strb r0, [r8, 0xa53] ",0
+"ldrb r0, [r8, 0xa8b] ",0
+"strb r0, [r8, 0xa54] ",0
+"ldrb r0, [r8, 0xa8c] ",0
+"strb r0, [r8, 0xa55] ",0
+"mov r0, r0 ",0
+"str sb, [sp, -4]! ",0
+"ldr r0, [0x0000445c] ",0
+"add sb, r8, r0 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00004458] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+"mov r0, r0 ",0
+"ldr r0, [0x00004454] ",0
+"ldrh r0, [r8, r0] ",0
+"ldr r1, [0x00004450] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, r0 ",0
+"str sb, [sp, -4]! ",0
+"ldr r0, [0x00004450] ",0
+"add sb, r8, r0 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x0000444c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa12] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa8d] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa13] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa8e] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa14] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa8f] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa15] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa90] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa16] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa91] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa17] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa92] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa18] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa93] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa19] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa94] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa1a] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa95] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa1b] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa96] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa1c] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa97] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa1d] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa98] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa1e] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa99] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa1f] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa9a] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa20] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa9b] ",0
+"mov r0, r0 ",0
+"ldrb r0, [r8, 0xa21] ",0
+"mov r0, r0 ",0
+"strb r0, [r8, 0xa9c] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004470] ",0
+"ldrh r0, [r8, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004448] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004444] ",0
+"ldrh r0, [r8, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004440] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x0000443c] ",0
+"ldrh r0, [r8, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004438] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004434] ",0
+"ldrh r0, [r8, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004430] ",0
+"strh r0, [r8, r1] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"pop {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr} ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r4, lsr 21 ",1
+"strdeq r0, r1, [r0], -sl ",1
+"andeq r0, r0, r2, lsr 21 ",1
+"strdeq r0, r1, [r0], -r8 ",1
+"andeq r0, r0, r0, lsr 21 ",1
+"strdeq r0, r1, [r0], -r6 ",1
+"muleq r0, lr, sl ",1
+"andeq r0, r0, ip, asr r2 ",1
+"andeq r0, r0, r0, lsl sl ",1
+"strdeq r0, r1, [r0], -ip ",1
+"andeq r0, r0, r4, asr 4 ",1
+"andeq r0, r0, r4, lsr 20 ",1
+"andeq r0, r0, r6, asr sl ",1
+"andeq r0, r0, r4, asr r2 ",1
+"andeq r0, r0, r8, lsr 16 ",1
+"strdeq r0, r1, [r0], -r4 ",1
+"strdeq r0, r1, [r0], -r4 ",1
+"andeq r0, r0, ip, lsr 16 ",1
+"andeq r0, r0, ip, lsl r8 ",1
+"andeq r0, r0, sl, lsl r8 ",1
+"andeq r0, r0, r8, lsl r8 ",1
+"andeq r0, r0, r6, lsl r8 ",1
+"andeq r0, r0, r4, asr 15 ",1
+"strheq r0, [r0], -ip ",1
+"strdeq r2, r3, [r0], -ip ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r0, [0x0000452c] ",0
+"ldr r1, [r0] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [r0] ",0
+"mov r0, 0 ",0
+"strh r0, [sb, 4] ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb] ",0
+"cmp r0, 1 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x44fc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb, 2] ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 4] ",0
+"mov r0, r0 ",0
+b 0x4510 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strh r0, [sb, 4] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x0000452c] ",0
+pop {r0} ,0
+"str r0, [r1] ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r2, r0, r8, lsl 3 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r0, [0x00004d04] ",0
+"ldr r1, [r0] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [r0] ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x7ac] ",0
+"cmp r0, 0 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x47e0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x7ac] ",0
+"mov r0, r0 ",0
+"ldrsh r0, [sb] ",0
+"cmp r0, 0 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x4600 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004d00] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004cfc] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004d00] ",0
+"add r0, sb, r1 ",0
+"mov r0, r0 ",0
+"str r0, [sb, 0x7bc] ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf4] ",0
+"strh r0, [sb, r1] ",0
+b 0x47dc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrsh r0, [sb] ",0
+"cmp r0, 1 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x46e8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004cf0] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r1, 0x64 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00004cec] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf0] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004cf0] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004d00] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004ce8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004ce4] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004d00] ",0
+"add r0, sb, r1 ",0
+"mov r0, r0 ",0
+"str r0, [sb, 0x7bc] ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf4] ",0
+"strh r0, [sb, r1] ",0
+b 0x47dc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrsh r0, [sb] ",0
+"cmp r0, 2 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x4768 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004d00] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004cfc] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004d00] ",0
+"add r0, sb, r1 ",0
+"mov r0, r0 ",0
+"str r0, [sb, 0x7bc] ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf4] ",0
+"strh r0, [sb, r1] ",0
+b 0x47dc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrsh r0, [sb] ",0
+"cmp r0, 3 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x47d8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r0, [sb, 0x820] ",0
+"mov r0, r0 ",0
+"str r0, [sb, 0x7bc] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004ce8] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf4] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004ce0] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf8] ",0
+"strh r0, [sb, r1] ",0
+b 0x47dc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004cdc] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf4] ",0
+"ldrsh r1, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cf4] ",0
+"ldrsh r1, [sb, r1] ",0
+"cmp r1, 0 ",0
+"movne r1, 1 ",0
+"moveq r1, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r1, 0 ",0
+bne 0x4950 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cd8] ",0
+"add r0, sb, r1 ",0
+"ldr r2, [0x00004cd4] ",0
+"add r1, sb, r2 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 0x50 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x4878 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x4844 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r2, 0 ",0
+"strb r2, [r1, 0x50] ",0
+"ldr r0, [0x00004cd0] ",0
+"ldr r1, [0x00004ccc] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x78e] ",0
+"mov r0, 3 ",0
+"strb r0, [sb, 0x78f] ",0
+"ldr r0, [0x00004cc8] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00004cc4] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00004cdc] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00004cc0] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [sb, 0x824] ",0
+"str r0, [sb, 0x794] ",0
+"ldr r0, [0x00004cf8] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00004cbc] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00004cf4] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x00004cb8] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [sb, 0x7bc] ",0
+"str r0, [sb, 0x79c] ",0
+"ldrb r0, [sb, 0x7ac] ",0
+"strb r0, [sb, 0x7a0] ",0
+"ldrb r0, [sb, 0x7ad] ",0
+"strb r0, [sb, 0x7a1] ",0
+"ldr r0, [0x00004cb4] ",0
+"str r0, [sb, 0x7a4] ",0
+"mov r0, r0 ",0
+"str sb, [sp, -4]! ",0
+"add sb, sb, 4 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00004cb0] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+"mov r0, r0 ",0
+b 0x4a6c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004cd8] ",0
+"add r0, sb, r1 ",0
+"ldr r2, [0x00004cd4] ",0
+"add r1, sb, r2 ",0
+"mov r3, 0 ",0
+"mov r0, r0 ",0
+"mov r2, 0x50 ",0
+"cmp r3, r2 ",0
+"movhs r2, 1 ",0
+"movlo r2, 0 ",0
+"cmp r2, 0 ",0
+bne 0x49a0 ,0
+"mov r0, r0 ",0
+"ldrb r2, [r0, r3] ",0
+"strb r2, [r1, r3] ",0
+"add r3, r3, 1 ",0
+b 0x496c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r2, 0 ",0
+"strb r2, [r1, 0x50] ",0
+"ldr r0, [0x00004cd0] ",0
+"ldr r1, [0x00004ccc] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, 0 ",0
+"strb r0, [sb, 0x78e] ",0
+"mov r0, 0x17 ",0
+"strb r0, [sb, 0x78f] ",0
+"ldr r0, [0x00004cc8] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00004cc4] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00004cdc] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00004cc0] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [sb, 0x824] ",0
+"str r0, [sb, 0x794] ",0
+"ldr r0, [0x00004cf8] ",0
+"ldrh r0, [sb, r0] ",0
+"ldr r1, [0x00004cbc] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [0x00004cf4] ",0
+"ldrsh r0, [sb, r0] ",0
+"ldr r1, [0x00004cb8] ",0
+"strh r0, [sb, r1] ",0
+"ldr r0, [sb, 0x7bc] ",0
+"str r0, [sb, 0x79c] ",0
+"ldrb r0, [sb, 0x7ac] ",0
+"strb r0, [sb, 0x7a0] ",0
+"ldrb r0, [sb, 0x7ad] ",0
+"strb r0, [sb, 0x7a1] ",0
+"ldr r0, [0x00004cb4] ",0
+"str r0, [sb, 0x7a4] ",0
+"mov r0, r0 ",0
+"str sb, [sp, -4]! ",0
+"add sb, sb, 4 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00004cb0] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {sb} ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004cac] ",0
+"ldrh r0, [sb, r0] ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004ca8] ",0
+"strh r0, [sb, r1] ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x7aa] ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x7b0] ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x7ab] ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x7b1] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004cac] ",0
+"ldrh r0, [sb, r0] ",0
+"cmp r0, 0 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x4af0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x82b] ",0
+"mov r0, r0 ",0
+b 0x4b04 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x82b] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x7b0] ",0
+"strb r0, [sb, 0x7b5] ",0
+"mov r0, r0 ",0
+"str r0, [sp, -4]! ",0
+"ldr r1, [0x00004ca4] ",0
+"add r0, sb, r1 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00004ca0] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r0, r0 ",0
+"ldrb r0, [sb, 0x7b6] ",0
+"eor r0, r0, 1 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x4c80 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x7ac] ",0
+"mov r0, r0 ",0
+"ldr r0, [0x00004cac] ",0
+"ldrh r0, [sb, r0] ",0
+"cmp r0, 0 ",0
+"movne r0, 1 ",0
+"moveq r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x4bd0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrsh r0, [sb] ",0
+"add r0, r0, 1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x4c2c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrsh r0, [sb] ",0
+"cmp r0, 0 ",0
+"movgt r0, 1 ",0
+"movle r0, 0 ",0
+"ldrsh r1, [sb] ",0
+"cmp r1, 3 ",0
+"movlt r1, 1 ",0
+"movge r1, 0 ",0
+"and r0, r0, r1 ",0
+"eor r0, r0, 1 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x4c24 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrsh r0, [sb] ",0
+"cmp r0, 3 ",0
+"movlt r0, 1 ",0
+"movge r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x4c78 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 3 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x82a] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00004d04] ",0
+pop {r0} ,0
+"str r0, [r1] ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r4, asr 3 ",1
+"strheq r0, [r0], -r4 ",1
+"andeq r0, r0, lr, lsr 15 ",1
+"andeq r0, r0, r8, lsr 15 ",1
+"andeq r0, r0, r0, asr r1 ",1
+"andeq r0, r0, r8, ror 7 ",1
+"muleq r0, sl, r7 ",1
+"muleq r0, r8, r7 ",1
+"muleq r0, r2, r7 ",1
+"muleq r0, r0, r7 ",1
+"andeq r0, r0, sl, lsl r8 ",1
+"andeq r0, r0, ip, lsl 15 ",1
+"strdeq r0, r1, [r0], -r6 ",1
+"andeq r0, r0, sl, lsr r7 ",1
+"andeq r0, r0, r4, asr 15 ",1
+"andeq r0, r0, r8, lsl r8 ",1
+"andeq r0, r0, ip, lsl r8 ",1
+"andeq r1, r0, r0 ",1
+"andeq r0, r0, r6, lsl r8 ",1
+"andeq r0, r0, r4, ror 5 ",1
+"andeq r0, r0, r8, lsr 16 ",1
+"andeq r0, r0, r0, asr 15 ",1
+"andeq r0, r0, r2, asr 15 ",1
+"andeq r1, r0, sl ",1
+"strheq r0, [r0], -r8 ",1
+"andeq r2, r0, r0, lsl 3 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"str r0, [sp, -4]! ",0
+"mov r1, 0 ",0
+"strh r1, [sb] ",0
+"ldr r8, [0x00004f20] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"add sb, sb, 4 ",0
+"mov r0, r1 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00004f1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x7ac] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x7ad] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00004f18] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x7b0] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x7b1] ",0
+"ldrb r1, [r8] ",0
+"str r0, [sp, -4]! ",0
+"ldr r2, [0x00004f14] ",0
+"add r0, sb, r2 ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00004f10] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r0} ,0
+"mov r1, r0 ",0
+"strb r1, [r8, -0x6d] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00004f0c] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"str r1, [sb, 0x7bc] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00004f08] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00004f04] ",0
+"strh r1, [sb, r2] ",0
+"mov r2, lr ",0
+bl 0x4e28 ,0
+"andeq r0, r0, r0 ",0
+"mov r1, lr ",0
+"mov lr, r2 ",0
+"ldr r3, [0x00004f00] ",0
+"add r2, sb, r3 ",0
+"mov r4, 0 ",0
+"mov r0, r0 ",0
+"mov r3, 1 ",0
+"cmp r4, r3 ",0
+"movhs r3, 1 ",0
+"movlo r3, 0 ",0
+"cmp r3, 0 ",0
+bne 0x4e70 ,0
+"mov r0, r0 ",0
+"ldrb r3, [r1, r4] ",0
+"strb r3, [r2, r4] ",0
+"add r4, r4, 1 ",0
+b 0x4e3c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00004efc] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00004ef8] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00004ef4] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"ldr r2, [0x00004ef0] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"str r1, [sb, 0x820] ",0
+"mov r1, 0 ",0
+"str r1, [sb, 0x824] ",0
+"ldr r1, [0x00004eec] ",0
+"ldr r2, [0x00004ee8] ",0
+"strh r1, [sb, r2] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x82a] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x82b] ",0
+pop {r0} ,0
+"cmp r0, 0 ",0
+bne 0x4ee0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r8, lsr 16 ",1
+"strdeq r0, r1, [r0], -r4 ",1
+"andeq r0, r0, ip, lsl r8 ",1
+"andeq r0, r0, sl, lsl r8 ",1
+"andeq r0, r0, r8, lsl r8 ",1
+"andeq r0, r0, r6, lsl r8 ",1
+"andeq r0, r0, r4, asr 15 ",1
+"andeq r0, r0, r2, asr 15 ",1
+"andeq r0, r0, r0, asr 15 ",1
+"strheq r0, [r0], -r8 ",1
+"andeq r0, r0, r8, asr 3 ",1
+"strheq r0, [r0], -r4 ",1
+"andeq r0, r0, lr, lsr 15 ",1
+"andeq r0, r0, r4, asr r1 ",1
+"andeq r3, r0, r8, ror sl ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"ldr r0, [0x00005b24] ",0
+"ldr r1, [r0] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [r0] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x59e0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b20] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x4ffc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x11] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b20] ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5010 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x11] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b18] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x50a8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x10] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b18] ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x50bc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x10] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b14] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x5154 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xf] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b14] ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5168 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xf] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b10] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x5200 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xe] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b10] ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5214 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xe] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b0c] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x52ac ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xd] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b0c] ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x52c0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xd] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b08] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x5358 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xc] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b08] ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x536c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xc] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b04] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x5404 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b04] ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5418 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b00] ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x54b0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"ldr r1, [0x00005b00] ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x54c4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"mov r1, 0x80 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x555c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 9] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"mov r1, 0x80 ",0
+"sub r0, r0, r1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5570 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 9] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"mov r1, 0x40 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x5604 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 8] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"sub r0, r0, 0x40 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5618 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 8] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"mov r1, 0x20 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x56ac ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 7] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"sub r0, r0, 0x20 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x56c0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 7] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"mov r1, 0x10 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x5754 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 6] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"sub r0, r0, 0x10 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5768 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 6] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"mov r1, 8 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x57fc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 5] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"sub r0, r0, 8 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5810 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 5] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"mov r1, 4 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x58a4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 4] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"sub r0, r0, 4 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x58b8 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 4] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"mov r1, 2 ",0
+"str r1, [sp, -4]! ",0
+"str sb, [sp, -4]! ",0
+"str r8, [sp, -4]! ",0
+"str lr, [sp, -4]! ",0
+"ldr r8, [0x00005b1c] ",0
+"ldr r8, [r8] ",0
+"mov lr, pc ",0
+"mov pc, r8 ",0
+"mov r0, r0 ",0
+pop {lr} ,0
+pop {r8} ,0
+pop {sb} ,0
+pop {r1} ,0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x594c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 3] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"sub r0, r0, 2 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x5960 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 3] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"cmp r0, 0 ",0
+"movls r0, 1 ",0
+"movhi r0, 0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"cmp r0, 0 ",0
+bne 0x59bc ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 1 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 2] ",0
+"mov r0, r0 ",0
+"ldrh r0, [sb] ",0
+"sub r0, r0, 1 ",0
+"mov r0, r0 ",0
+"strh r0, [sb] ",0
+"mov r0, r0 ",0
+b 0x59d0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 2] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+b 0x5ae4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 2] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 3] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 4] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 5] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 6] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 7] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 8] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 9] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xa] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xb] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xc] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xd] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xe] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0xf] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x10] ",0
+"mov r0, r0 ",0
+"mov r0, 0 ",0
+"mov r0, r0 ",0
+"strb r0, [sb, 0x11] ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldr r1, [0x00005b24] ",0
+pop {r0} ,0
+"str r0, [r1] ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"andeq r0, r0, r0, lsl 2 ",1
+"andeq r0, r0, r0, lsl 4 ",1
+"andeq r0, r0, r0, lsl 8 ",1
+"andeq r0, r0, r0, lsl 16 ",1
+"andeq r1, r0, r0 ",1
+"andeq r2, r0, r0 ",1
+"andeq r4, r0, r0 ",1
+"andeq r0, r0, r4, ror 5 ",1
+"andeq r8, r0, r0 ",1
+"andeq r2, r0, r4, lsl 3 ",1
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"str r0, [sp, -4]! ",0
+"mov r1, 0 ",0
+"strh r1, [sb] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 2] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 3] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 4] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 5] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 6] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 7] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 8] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 9] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0xa] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0xb] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0xc] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0xd] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0xe] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0xf] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x10] ",0
+"mov r1, 0 ",0
+"strb r1, [sb, 0x11] ",0
+pop {r0} ,0
+"cmp r0, 0 ",0
+bne 0x5bd0 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"ldmdb fp, {fp, sp, pc} ",0
+"mov ip, sp ",0
+"push {fp, ip, lr} ",0
+"mov fp, ip ",0
+"push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr} ",0
+"ldr r2, [0x00006034] ",0
+"ldr r1, [0x00006030] ",0
+"str r1, [r2] ",0
+"ldr r1, [0x0000602c] ",0
+"str r1, [r2, 4] ",0
+"ldr r1, [0x00006028] ",0
+"str r1, [r2, 8] ",0
+"ldr r1, [0x00006024] ",0
+"str r1, [r2, 0xc] ",0
+"ldr r1, [0x00006020] ",0
+"str r1, [r2, 0x10] ",0
+"mov r1, 5 ",0
+"ldr r3, [0x0000601c] ",0
+"mov r0, r0 ",0
+"cmp r1, r3 ",0
+"movhs r4, 1 ",0
+"movlo r4, 0 ",0
+"cmp r4, 0 ",0
+bne 0x5c54 ,0
+"mov r0, r0 ",0
+"mov r4, 0 ",0
+"mov r5, 4 ",0
+"mul r5, r5, r1 ",0
+"str r4, [r2, r5] ",0
+"add r1, r1, 1 ",0
+b 0x5c1c ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r1, 5 ",0
+"mov r2, 4 ",0
+"mov r4, 0 ",0
+"ldr r5, [0x00006034] ",0
+"ldr r6, [0x0000601c] ",0
+"mov r0, r0 ",0
+"mul r3, r2, r1 ",0
+"str r4, [r5, r3] ",0
+"add r1, r1, 1 ",0
+"cmp r1, r6 ",0
+"movlo r7, 1 ",0
+"movhs r7, 0 ",0
+"cmp r7, 0 ",0
+bne 0x5c6c ,0
+"mov r0, r0 ",0
+"mov r1, 0x91 ",0
+"strh r1, [r0, 0x14] ",0
+"mov r1, 2 ",0
+"strh r1, [r0, 0x18] ",0
+"mov r1, 3 ",0
+"strh r1, [r0, 0x16] ",0
+"mov r1, 1 ",0
+"strh r1, [r0, 0x1a] ",0
+"mov r1, 0xbc ",0
+"strh r1, [r0, 0x1c] ",0
+"mov r1, 6 ",0
+"str r1, [r0, 0x34] ",0
+"ldrb r1, [r0, 0x28] ",0
+"cmp r1, 0 ",0
+beq 0x5f40 ,0
+"mov r0, r0 ",0
+"ldr r1, [r0, 0x20] ",0
+"ldr r2, [r0, 0x24] ",0
+"mov r3, 0 ",0
+"ldr r4, [0x0000601c] ",0
+"mov r0, r0 ",0
+"cmp r3, r4 ",0
+"movhs r5, 1 ",0
+"movlo r5, 0 ",0
+"cmp r5, 0 ",0
+bne 0x5d20 ,0
+"mov r0, r0 ",0
+"mov r5, 4 ",0
+"mul r6, r5, r3 ",0
+"mov r5, 0 ",0
+"str r5, [r1, r6] ",0
+"str r5, [r2, r6] ",0
+"add r3, r3, 1 ",0
+b 0x5ce4 ,0
+"mov r0, r0 ",0
+"mov r0, r0 ",0
+"mov r4, 0 ",0
+"str r4, [r1] ",0
+"mov r4, 4 ",0
+"ldr r5, [0x00006018] ",0
+"str r5, [r2, r4] ",0
+"mov r6, pc ",0
+"ldr r5, [0x00006014] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"mov r4, 8 ",0
+"mov r5, 0x28 ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00006010] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"mov r4, 0xc ",0
+"mov r5, 0x18 ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x0000600c] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"mov r4, 0x10 ",0
+"mov r5, 0x4c ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00006008] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"mov r4, 0x18 ",0
+"mov r5, 0x40 ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00006004] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00006000] ",0
+"mov r5, 0xa8 ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005ffc] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005ff8] ",0
+"ldr r5, [0x00005ff4] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005ff0] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005fec] ",0
+"ldr r5, [0x00005fe8] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005fe4] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005fe0] ",0
+"ldr r5, [0x00005fdc] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005fd8] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005fd4] ",0
+"ldr r5, [0x00005fd0] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005fcc] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005fc8] ",0
+"ldr r5, [0x00005fc4] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005fc0] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005fbc] ",0
+"ldr r5, [0x00005fb8] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005fb4] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005fb0] ",0
+"ldr r5, [0x00005fac] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005fa8] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005fa4] ",0
+"mov r5, 0x38 ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005fa0] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005f9c] ",0
+"ldr r5, [0x00005f98] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005f94] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005f90] ",0
+"ldr r5, [0x00005fe0] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005f8c] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005f88] ",0
+"ldr r5, [0x00005f84] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005f80] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005f7c] ",0
+"mov r5, 0x9c ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005f78] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005f74] ",0
+"ldr r5, [0x00005f70] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005f6c] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005f68] ",0
+"ldr r5, [0x00005f64] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005f60] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005f5c] ",0
+"ldr r5, [0x00005f58] ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005f54] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"ldr r4, [0x00005f50] ",0
+"mov r5, 0xb0 ",0
+"str r5, [r2, r4] ",0
+"ldr r5, [0x00005f4c] ",0
+"add r5, r6, r5 ",0
+"str r5, [r1, r4] ",0
+"mov r0, r0 ",0
+"pop {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, lr} ",0
+"ldmdb fp, {fp, sp, pc} ",0
+invalid ,1
+"andeq r0, r0, r8, asr r2 ",1
+invalid ,1
+"andeq r0, r0, r4, lsl 24 ",1
+"andeq r0, r0, r4, asr r2 ",1
+invalid ,1
+"andeq r0, r0, ip, lsl r2 ",1
+"andeq r0, r0, r0, asr r2 ",1
+invalid ,1
+"ldrdeq r0, r1, [r0], -r8 ",1
+"andeq r0, r0, ip, asr 4 ",1
+invalid ,1
+"andeq r0, r0, r8, asr 4 ",1
+invalid ,1
+"andeq r0, r0, r0, lsr r4 ",1
+"andeq r0, r0, r4, asr 4 ",1
+invalid ,1
+"andeq r0, r0, r0, asr 4 ",1
+invalid ,1
+"andeq r0, r0, r0, asr 15 ",1
+"andeq r0, r0, ip, lsr r2 ",1
+invalid ,1
+"andeq r0, r0, r4, lsl 3 ",1
+invalid ,1
+"andeq r0, r0, ip, lsr 14 ",1
+"andeq r0, r0, r0, ror 2 ",1
+invalid ,1
+"andeq r0, r0, r0, lsr 4 ",1
+"andeq r0, r0, ip, asr 2 ",1
+invalid ,1
+"andeq r0, r0, r8, lsl r2 ",1
+"andeq r0, r0, r8, asr 2 ",1
+invalid ,1
+"andeq r0, r0, r4, lsl r3 ",1
+"andeq r0, r0, ip, lsr r1 ",1
+invalid ,1
+"andeq r1, r0, r4, ror 6 ",1
+"andeq r0, r0, r8, lsr r1 ",1
+invalid ,1
+"andeq r0, r0, r4, lsl r2 ",1
+"andeq r0, r0, r4, lsr r1 ",1
+invalid ,1
+"andeq r0, r0, r0, lsl 21 ",1
+"andeq r0, r0, r0, lsr r1 ",1
+invalid ,1
+"andeq r0, r0, r4, lsr 2 ",1
+invalid ,1
+invalid ,1
+invalid ,1
+invalid ,1
+invalid ,1
+"andeq r0, r0, r0, lsl 14 ",1
+"strdeq r0, r1, [r0], -pc ",1
+"strdeq r2, r3, [r0], -ip ",1
+"andlo r2, r0, r0 ",1
+"strbeq lr, [ip], 0xc08 ",1
+"strbeq sp, [ip], 0x810 ",1
+"andlo r0, r0, r0 ",1
+"andeq r2, r0, r0 ",1
+"subeq r0, r7, r0 ",1
+"strbteq r0, [ip], r8, ror 13 ",1
+invalid ,1
+invalid ,1
+"streq r0, [r8, -r4, lsl 14] ",1
+"ldreq r0, [r0, -ip, lsl 14] ",1
+invalid ,1
+"streq r0, [ip, -r8, lsr 14]! ",1
+"smmlareq ip, r4, r7, r0 ",1
+invalid ,1
+"stmeq r4!, {fp} ",1
+"tstne r4, 168, 16 ",1
+"tstne ip, 24, 6 ",1
+invalid ,1
+"strne r1, [ip, -0x328]! ",1
+"ldrne r1, [r4, -0x530]! ",1
+"ldrne r1, [ip, -0x538]! ",1
+"strhs r2, [r8, -0x51c]! ",1
+"strbhs r2, [ip, -0x544]! ",1
+"ldmdahs ip!, {r2, r4, r5, r6, fp, sp} ^ ",1
+blhs 0xfe0102d0 ,1
+blhs 0xfe610eb4 ,1
+blhs 0xfed10f18 ,1
+"stchs p13, c2, [r4, 0x240]! ",1
+svchs 0xe82fe4 ,1
+"strlo r2, [ip, -ip, ror 31] ",1
+invalid ,1
+svclo 0xc3718 ,1
+"ldrtmi r3, [r4], -0xf10 ",1
+"strbmi r4, [ip], -0x440 ",1
+"ldrmi r4, [r4, -0x478] ",1
+"ldcmi p12, c4, [r8], {0x88} ",1
+"stclmi p12, c4, [ip], 0x350 ",1
+svcmi 0x44ef8 ,1
+blpl 0x119ce8 ,1
+"andvs r5, r8, ip, lsl 22 ",1
+invalid ,1
+"strbmi r5, [r8, -0x445] ",1
+"strbpl r4, [r5], -0xe52 ",1
+"stmdbmi ip, {r0, r1, r2, r3, r4, r6, r8, sb, lr} ^ ",1
+svcpl 0x544e45 ,1
+"movtpl r4, 0xfc43 ",1
+"andeq r0, r7, r5, asr 32 ",1
+"strbmi r5, [r8, -0x445] ",1
+"strbpl r4, [r5], -0xe52 ",1
+"stmdbmi ip, {r0, r1, r2, r3, r4, r6, r8, sb, lr} ^ ",1
+svcpl 0x544e45 ,1
+"movtpl r4, 0xfc43 ",1
+"stmdbvs lr!, {r0, r2, r6, r8, fp, sp, lr} ^ ",1
+"andeq r0, r8, r4, ror r0 ",1
+"strbmi r5, [r8, -0x445] ",1
+"strbpl r4, [r5], -0xe52 ",1
+"stmdbmi ip, {r0, r1, r2, r3, r4, r6, r8, sb, lr} ^ ",1
+svcpl 0x544e45 ,1
+"cdpmi p0, 4, c5, c5, c15, 2 ",1
+"strmi r0, [r0, -0x900] ",1
+"subpl r4, r5, 84, 16 ",1
+svcpl 0x54454e ,1
+"strbmi r4, [sb, -0xc43] ",1
+svcmi 0x5f544e ,1
+"stmdbvs lr, {r4, r6, r8, sl, lr} ^ ",1
+"rsbseq r6, r4, lr, ror 18 ",1
+"strbpl r0, [r5], -0xa ",1
+"cdpmi p5, 5, c4, c2, c8, 2 ",1
+"cmpmi pc, 0x45000000 ",1
+"vmlsmi.f16 s9, s10, s24 ",1
+"subpl r5, pc, r4, asr pc ",1
+"subslo r4, pc, 0x450 ",1
+"strmi r0, [r0, -0xb00] ",1
+"subpl r4, r5, 84, 16 ",1
+svcpl 0x54454e ,1
+"strbmi r4, [sb, -0xc43] ",1
+svcmi 0x5f544e ,1
+svcpl 0x4e4550 ,1
+"stmdbvs lr!, {r1, r4, r5, r8, fp, sp, lr} ^ ",1
+"andeq r0, ip, r4, ror r0 ",1
+"strbmi r5, [r8, -0x445] ",1
+"strbpl r4, [r5], -0xe52 ",1
+"qdaddmi r5, pc, r5 ",1
+"andseq r0, r3, r4, asr 32 ",1
+"strbmi r5, [r8, -0x445] ",1
+"strbpl r4, [r5], -0xe52 ",1
+"qdaddmi r5, pc, r5 ",1
+"stmdbvs lr!, {r2, r6, r8, fp, sp, lr} ^ ",1
+"andseq r0, r4, r4, ror r0 ",1
+"strbmi r5, [r8, -0x445] ",1
+"strbpl r4, [r5], -0xe52 ",1
+"ldmdbmi r2, {r0, r1, r2, r3, r4, r6, r8, sb, sl, ip, lr} ^ ",1
+"andhs r4, r0, 84, 10 ",1
+"ldmdami r4, {r8, sl, lr} ^ ",1
+"strbmi r5, [lr, -0x245] ",1
+"subspl r5, r7, 84, 30 ",1
+"stmdbvs r5, {r0, r3, r6, sl, ip, lr} ^ ",1
+"rsbseq r6, r4, lr, ror 18 ",1
+svcpl 0x460023 ,1
+"smlsldmi r5, sb, r4, r2 ",1
+"strmi r6, [r0], -r0, lsl 30 ",1
+"ldmdbmi r2, {r0, r1, r2, r3, r4, r6, sl, ip, lr} ^ ",1
+"stmdbvs lr!, {r0, r1, r2, r6, r8, fp, sp, lr} ^ ",1
+"rsbseq r0, r0, r4, ror r0 ",1
+"strbmi r4, [lr], -0x946 ",1
+invalid ,1
+"strvc r4, [r0], -0xe45 ",1
+"strbmi r5, [sb, -r0, lsl 4] ",1
+blvc 0x1b300 ,1
+"cdpmi p4, 4, c5, c15, c0, 0 ",1
+"strpl r8, [r0], -0x900 ",1
+"cdpvs p14, 6, c4, c9, c15, 2 ",1
+bhi 0x23394 ,1
+invalid ,1
+"strbtvs r5, [r1], -0xf6c ",1
+"addseq r0, r7, r4, rrx ",1
+"stclvs p5, c6, [r1], -0x1c8 ",1
+"rsbsvs r7, r5, 0x7c000001 ",1
+"andvc sb, r0, 0, 16 ",1
+svcpl 0x6c6165 ,1
+"rsbeq r7, ip, sp, ror 10 ",1
+"ldrbvs r0, [r2, -0x99]! ",1
+"ldrbvs r6, [pc], -0xc61 ",1
+bls 0x23bc0 ,1
+invalid ,1
+invalid ,1
+"andvc sb, r0, 0, 22 ",1
+svcpl 0x6c6165 ,1
+invalid ,1
+invalid ,1
+"strbtvc r5, [ip], -0xf6c ",1
+"andvc sb, r0, 0, 26 ",1
+svcpl 0x6c6165 ,1
+"cdpls p5, 0, c6, c0, c12, 3 ",1
+invalid ,1
+"strbtvc r5, [r7], -0xf6c ",1
+"andvc sb, r0, 0, 30 ",1
+svcpl 0x6c6165 ,1
+"andge r6, r0, r7, ror 10 ",1
+"cdpvs p12, 6, c6, c15, c0, 0 ",1
+svcvs 0x745f67 ,1
+"qdsubvs r7, pc, r5 ",1
+"adceq r0, r1, ip, rrx ",1
+"mcrvs p12, 3, r6, c15, c5, 3 ",1
+svcvs 0x745f67 ,1
+"qdsubvs r7, pc, r5 ",1
+"adceq r0, r2, ip, rrx ",1
+"stclvs p5, c6, [r1], -0x1c8 ",1
+svcpl 0x6f745f ,1
+"strbvs r6, [lr, -ip, ror 30]! ",1
+"strvs sl, [r0], -r0, lsl 6 ",1
+"strbtvc r6, [r1], -0xf6c ",1
+invalid ,1
+"strvs sl, [r0], -r0, lsl 8 ",1
+"strbtvc r6, [r1], -0xf6c ",1
+"mcrvs p3, 3, r7, c9, c15, 2 ",1
+"strvs sl, [r0], -r0, lsl 10 ",1
+"strbtvc r6, [r1], -0xf6c ",1
+invalid ,1
+"strvs sl, [r0], -r0, lsl 12 ",1
+"strbtvc r6, [r1], -0xf6c ",1
+"mcrvs p4, 3, r7, c1, c15, 2 ",1
+"strvs sl, [r0], -r0, lsl 14 ",1
+"strbtvc r6, [r1], -0xf6c ",1
+"cmnvs r4, pc, asr r1 ",1
+"adceq r0, r8, lr, rrx ",1
+invalid ,1
+invalid ,1
+"stmdbge r0, {r0, r3, r5, r6, sb, sl, fp, sp, lr} ",1
+svcvs 0x6c6600 ,1
+"cmpvs pc, r1, ror 8 ",1
+"rsbseq r6, r3, r3, ror 30 ",1
+"stclvs p0, c0, [r6], -0x2a8 ",1
+svcpl 0x74616f ,1
+blge 0x21c98 ,1
+svcvs 0x6c6600 ,1
+"mrrcvs p4, 6, r7, pc, c1 ",1
+invalid ,1
+svcvs 0x6c6600 ,1
+"ldrbvs r7, [0x00005e9b] ",1
+"stcge p0, c7, [r0, -0x1e0] ",1
+svcvs 0x6c6600 ,1
+"ldrbvs r7, [0x00005ea7] ",1
+"rsbseq r7, r4, r8, ror r0 ",1
+"stclvs p0, c0, [r6], -0x2b8 ",1
+svcpl 0x74616f ,1
+"ldrbtvc r7, [r2], -0x173 ",1
+"strvs sl, [r0], -r0, lsl 30 ",1
+"strbtvc r6, [r1], -0xf6c ",1
+svcpl 0x6f745f ,1
+"ldmdbvs r2!, {r0, r1, r4, r5, r6, sl, ip, sp, lr} ^ ",1
+"andlt r6, r0, lr, ror 14 ",1
+"rsbsvc r7, r4, 0, 6 ",1
+svcpl 0x676e69 ,1
+"usub16vs r6, pc, r4 ",1
+"strbtvc r6, [r1], -0xf6c ",1
+"strvs fp, [r0], -r0, lsl 2 ",1
+"strbtvc r6, [r1], -0xf6c ",1
+svcpl 0x6f745f ,1
+"rsbvc r7, pc, 100, 14 ",1
+"adcseq r0, r2, r4, rrx ",1
+"stclvs p5, c6, [r1], -0x1c8 ",1
+"ldrbvc r7, [r2, -0x45f]! ",1
+"movwlt r6, 0x36e ",1
+"stmdbvc lr!, {r8, sp, lr} ^ ",1
+svcpl 0x6f745f ,1
+"ldmdbvs r2!, {r0, r1, r4, r5, r6, sl, ip, sp, lr} ^ ",1
+"strlt r6, [r0], -0x76e ",1
+"rsbsvc r7, r4, 0, 6 ",1
+svcpl 0x676e69 ,1
+"cmpvs pc, r4, ror pc ",1
+"strlt r7, [r0, -0x96e] ",1
+"strbvs r7, [sb, -r0, lsl 6]! ",1
+svcpl 0x64656e ,1
+"rsbseq r6, r6, r4, ror 18 ",1
+"mrcvs p0, 3, r0, c5, c6, 5 ",1
+"mcrvs p9, 3, r6, c7, c3, 3 ",1
+"ldrbvs r6, [pc], -0x465 ",1
+"strlt r7, [r0, -sb, ror 12] ",1
+"strbtvc r4, [r5], -0x700 ",1
+"strbvs r6, [sp, -0x974]! ",1
+"movwvc fp, 0x800 ",1
+"strbvs r6, [lr, -0x769]! ",1
+svcvs 0x6d5f64 ,1
+"adcseq r0, sb, r4, rrx ",1
+"ldmdbvs r3!, {r0, r2, r4, r5, r6, sb, sl, fp, sp, lr} ^ ",1
+"strbtvs r6, [r5], -0xe67 ",1
+"strbtvs r6, [pc], -0xd5f ",1
+"movwpl fp, 0xa00 ",1
+"strbvs r7, [r4, -0x379] ",1
+"stmdami r7!, {r1, r5, r6, r8, sl, ip, sp, lr} ^ ",1
+"stclvs p14, c6, [r4], -0x184 ",1
+bllt 0x22d64 ,1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, ip ",1
+"andeq r0, r0, r0 ",1
+"addlo ip, sp, 0x26000 ",1
+"ldrblo r0, [r0, -r0] ",1
+"qaddeq r0, r0, r1 ",1
+"andeq r0, r1, r4, asr r0 ",1
+"mrseq r0, apsr ",1
+invalid ,1
+"andseq r0, r1, r8, asr 32 ",1
+"andeq r0, r1, r0 ",1
+"ldrhs r0, [r0, -r0] ",1
+"ldrhs r0, [r0, -r0] ",1
+"andeq r0, r1, r0 ",1
+invalid ,1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"ldrsheq pc, [r1], pc ",1
+"strbvs r0, [r4, -0] ",1
+"ldclvs p1, c6, [r5], -0x198 ",1
+invalid ,1
+"andeq r0, r0, fp, rrx ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"ldrsheq r0, [r4], -r8 ",1
+invalid ,1
+"andeq r0, r1, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andeq r0, r2, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andeq r0, r3, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andeq r0, r4, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andeq r0, r5, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andeq r0, r7, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andeq r0, sb, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andeq r0, sl, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andseq r0, r2, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andseq r0, r4, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andseq r0, ip, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andseq r0, sp, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"andseq r0, pc, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"eoreq r0, r1, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"eoreq r0, r2, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"mvnseq r0, ip ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"rsceq r0, lr, 0xc ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"rsceq r0, pc, 0xc ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+"rscseq r0, r0, 0xc ",1
+"andeq r0, r0, r0 ",1
+invalid ,1
+invalid ,1
+"andeq r0, r0, r0 ",1
+svcvs 0x430000 ,1
+svcvs 0x436d6d ,1
+"stmdbmi r0, {r1, r2, r3, r5, r6, sb, sl, sp, lr} ",1
+"strdeq r0, r1, [r0], -lr ",1
+"andeq r0, r0, r0 ",1
+"cdpgt p1, 2, c8, c10, c13, 2 ",1
+"rscseq pc, pc, r7, ror pc ",1
+invalid ,1
+invalid ,1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, lsr r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, lsr r0 ",1
+"andmi r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"movweq r0, 0 ",1
+"cdphs p13, 0xd, c4, c10, c0, 0 ",1
+"andeq r0, r1, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r1, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r1, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, asr 32 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"strbne r0, [sp], -2 ",1
+"ldrheq r3, [r7, -0x5b]! ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, lsl 16 ",1
+"andeq r0, r0, r0 ",1
+"andeq r2, r0, r0 ",1
+"andhs r0, r0, r0, lsl 4 ",1
+"ldrhtne ip, [r7], -0xf1 ",1
+"andeq r0, r1, r7, lsr 32 ",1
+"andeq r0, r0, r2 ",1
+invalid ,1
+"ldrhs r7, [r1, -pc, asr 15] ",1
+"andeq r0, r0, 0, 2 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, lsl 8 ",1
+"strblo r4, [r2, r0, lsl 6] ",1
+"ldrdeq r7, r8, [r1], -r1 ",1
+"andeq r0, r0, r2 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"teqle r7, r3, asr 4 ",1
+"andeq r0, r0, 0x70000007 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, lsl 2 ",1
+"movwmi r0, 0 ",1
+"ldrbvc r3, [r1, r2, asr 15] ",1
+"andeq r0, r2, r3 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r2 ",1
+"subgt r0, r3, 0 ",1
+"ldrbteq sp, [r7], -0x137 ",1
+"andeq r0, r0, r0, lsl 4 ",1
+"movweq r0, 0 ",1
+"andeq r0, r0, r0 ",1
+"strbls r4, [ip, r0, lsl 26]! ",1
+"andeq r7, r2, r5, lsr r7 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r8 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, lsr 32 ",1
+invalid ,1
+"ldrhs r7, [r0, -pc, asr 15] ",1
+"andeq r0, r0, 0, 2 ",1
+"andeq r0, r0, r0 ",1
+svcgt 0xb12100 ,1
+"eoreq r1, r7, r7, ror r1 ",1
+"andeq r0, r2, r1 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r4 ",1
+"teqle r7, r3, asr 2 ",1
+invalid ,1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"movwmi r0, 0 ",1
+"ldrbvc r3, [r1, r1, asr 15] ",1
+"andeq r0, r1, r2 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r1 ",1
+"mrsgt r0, spsr ",1
+"cmneq r7, 0xc000000d ",1
+"andeq r0, r0, r0, lsl 2 ",1
+"andeq r0, r0, 0 ",1
+"andeq r0, r0, r0 ",1
+"strblo r4, [r1, r0, lsl 6] ",1
+"ldrdeq r7, r8, [r4], -r1 ",1
+"andeq r0, r0, r1 ",1
+"andeq r0, r3, r0 ",1
+"andeq r0, r0, r0 ",1
+"rscle r7, r5, 0x40000013 ",1
+"andeq r0, r0, r7, ror r2 ",1
+"andeq r0, r1, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, lsl r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0, lsl r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"stceq p13, c4, [r1], {0} ",1
+"ldrdeq r7, r8, [r3], -r3 ",1
+"andeq r0, r0, 0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r1, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r1, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+"teqeq lr, r0 ",1
+"andeq r0, r0, r0 ",1
+"andeq r0, r0, r0 ",1
+blpl 0x13cf42c ,1
+"eorvc r3, lr, r3, lsr r2 ",1
+"andeq r6, r0, r2, ror pc ",1
+invalid ,1
