@@ -8,8 +8,9 @@ Loadstar is a tool that helps in performing code and data separation of non-stan
 .
 ├── e2e_pipeline.py        # Main script
 ├── requirements.txt       # Python dependencies
-├── data/                  # Place your dataset CSVs here
-├── test/                  # Place your test .txt files here
+├── dataset/               # Place your dataset CSVs here
+├── utils/                 # Place any helper functions here
+├── models/                # Place the models here
 ├── results/               # Output predictions + metrics
 └── README.md              # Documentation
 ```
@@ -83,14 +84,6 @@ python e2e_pipeline.py   --model path/to/model.keras   --tokenizer path/to/token
 
 3. **Metrics (Star Cutoff evaluation)**  
    Saved in `<result_path>/metrics_star.json` (evaluation truncated to last `0` in ground truth).
-
----
-
-## 🛠 Development Notes
-- Uses **TensorFlow/Keras** for modeling.  
-- Uses **scikit-learn** for metrics.  
-- `report_metrics` supports both full and star evaluation.  
-- `eval_files` cross-checks saved predictions against ground truth CSVs.  
 
 ---
 
