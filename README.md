@@ -89,6 +89,7 @@ python e2e_pipeline.py   --model path/to/model.keras   --tokenizer path/to/token
 
 ## Model
 Model is available on google drive: https://drive.google.com/drive/u/1/folders/1nVCn5JRX0POu_nFUjYvDax7vx_91xL0Q
+
 Hugging Face: benksy/itr_ns1
 
 ## 📜 License
